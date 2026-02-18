@@ -17,9 +17,13 @@ export default async function DonationsPage() {
     <PageLayout>
       <DocumentPage frontMatter={frontMatter} content={content} />
 
-      <div className="pt-12 max-w-6xl mx-auto">
-        <DonationsList />
-      </div>
+      <section className="flex flex-col max-w-desktop-lg mx-auto px-4">
+        <div className="grid grid-cols-4 tablet-lg:grid-cols-12 gap-3">
+          <div className="col-span-4 tablet-lg:col-span-10 tablet-lg:col-start-2">
+            <DonationsList />
+          </div>
+        </div>
+      </section>
     </PageLayout>
   );
 }

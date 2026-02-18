@@ -1,0 +1,421 @@
+{
+  "id": "tblgr5Ylq722TIv08",
+  "name": "Donations",
+  "primaryFieldId": "fldZ6AkDjUq2rw0k6",
+  "fields": [
+    {
+      "type": "singleLineText",
+      "id": "fldZ6AkDjUq2rw0k6",
+      "name": "Item Name"
+    },
+    {
+      "type": "singleSelect",
+      "options": {
+        "choices": [
+          {
+            "id": "selRZNysgChioDhZ8",
+            "name": "Clothing",
+            "color": "blueLight2"
+          },
+          {
+            "id": "selsexjvjPPKP7qnz",
+            "name": "Hygiene",
+            "color": "cyanLight2"
+          },
+          {
+            "id": "selMdffgzKTXS9drM",
+            "name": "Shelter Supplies",
+            "color": "tealLight2"
+          },
+          {
+            "id": "selTZuOXp0jFApZst",
+            "name": "Bedding",
+            "color": "greenLight2"
+          },
+          {
+            "id": "sel3WdEvVlejncli1",
+            "name": "Food (non-perishable)",
+            "color": "yellowLight2"
+          },
+          {
+            "id": "selaLxpQ0Rmgp69Nq",
+            "name": "Medical/First Aid",
+            "color": "orangeLight2"
+          },
+          {
+            "id": "selqP0TS0IxXd58kA",
+            "name": "Seasonal",
+            "color": "redLight2"
+          },
+          {
+            "id": "selo6ojOeCZcQXXPf",
+            "name": "Other",
+            "color": "pinkLight2"
+          },
+          {
+            "id": "selhgos4mMgLdsriZ",
+            "name": "Category",
+            "color": "blueLight2"
+          }
+        ]
+      },
+      "id": "fldEEzhEgFMCDG8HQ",
+      "name": "Category"
+    },
+    {
+      "type": "multipleRecordLinks",
+      "options": {
+        "linkedTableId": "tblTQpGt9Th8ETHPh",
+        "isReversed": false,
+        "prefersSingleRecordLink": true,
+        "inverseLinkFieldId": "fldgoBzvv21vB9ZhO"
+      },
+      "id": "fldjtcAgOYagz5tdd",
+      "name": "Requesting Organization"
+    },
+    {
+      "type": "number",
+      "options": {
+        "precision": 0
+      },
+      "id": "fld8EO9OUPrWm3qLN",
+      "name": "Quantity Needed"
+    },
+    {
+      "type": "number",
+      "options": {
+        "precision": 0
+      },
+      "id": "fldkCxIpAo21YAJwV",
+      "name": "Quantity Claimed"
+    },
+    {
+      "type": "number",
+      "options": {
+        "precision": 0
+      },
+      "id": "fldiDsk28bQEPFC47",
+      "name": "Quantity Delivered"
+    },
+    {
+      "type": "formula",
+      "options": {
+        "isValid": true,
+        "formula": "{fld8EO9OUPrWm3qLN} - {fldiDsk28bQEPFC47}",
+        "referencedFieldIds": [
+          "fld8EO9OUPrWm3qLN",
+          "fldiDsk28bQEPFC47"
+        ],
+        "result": {
+          "type": "number",
+          "options": {
+            "precision": 0
+          }
+        }
+      },
+      "id": "fldouCQz5MF9vSu5Z",
+      "name": "Quantity Remaining"
+    },
+    {
+      "type": "singleSelect",
+      "options": {
+        "choices": [
+          {
+            "id": "sel5XF1GpLxpMMkwL",
+            "name": "Individual items",
+            "color": "blueLight2"
+          },
+          {
+            "id": "selOgfTuwWVhzoz64",
+            "name": "Cases",
+            "color": "cyanLight2"
+          },
+          {
+            "id": "selIGuCm9brUb2qYX",
+            "name": "Packs",
+            "color": "tealLight2"
+          },
+          {
+            "id": "seluyA5uhJMnHnxdb",
+            "name": "Pairs",
+            "color": "greenLight2"
+          },
+          {
+            "id": "seltuGbDAGFIS8UjA",
+            "name": "Boxes",
+            "color": "yellowLight2"
+          },
+          {
+            "id": "selxU2NlBfFYJ1Qwr",
+            "name": "Unit Type",
+            "color": "blueLight2"
+          },
+          {
+            "id": "seljSgwIwIZUTnIlx",
+            "name": "Bags",
+            "color": "cyanLight2"
+          }
+        ]
+      },
+      "id": "fldPUx1iqhaBDs4yf",
+      "name": "Unit Type"
+    },
+    {
+      "type": "singleSelect",
+      "options": {
+        "choices": [
+          {
+            "id": "selflHzTkKqC1hXls",
+            "name": "Urgent",
+            "color": "blueLight2"
+          },
+          {
+            "id": "selGTcsb71LBEHiKn",
+            "name": "High",
+            "color": "cyanLight2"
+          },
+          {
+            "id": "selfDkibIN6Dq7hRi",
+            "name": "Normal",
+            "color": "tealLight2"
+          },
+          {
+            "id": "selQnCDYg6vy6ed9t",
+            "name": "Low",
+            "color": "greenLight2"
+          },
+          {
+            "id": "selbWkkMLE4HilEHQ",
+            "name": "Priority",
+            "color": "blueLight2"
+          }
+        ]
+      },
+      "id": "fldbXoit11aZfqahO",
+      "name": "Priority"
+    },
+    {
+      "type": "date",
+      "options": {
+        "dateFormat": {
+          "name": "local",
+          "format": "l"
+        }
+      },
+      "id": "fldmvADoOpaSSZ67F",
+      "name": "Needed By"
+    },
+    {
+      "type": "singleSelect",
+      "options": {
+        "choices": [
+          {
+            "id": "selOgKi4lNxovmb9l",
+            "name": "One-time",
+            "color": "blueLight2"
+          },
+          {
+            "id": "selvmp8DXa7ROIjXL",
+            "name": "Weekly",
+            "color": "cyanLight2"
+          },
+          {
+            "id": "sela2mDnYvjpg4ili",
+            "name": "Monthly",
+            "color": "tealLight2"
+          },
+          {
+            "id": "selY2DXwHPTmYdXv8",
+            "name": "Quarterly",
+            "color": "greenLight2"
+          },
+          {
+            "id": "sel0mgFS6T3ursAx4",
+            "name": "Seasonal",
+            "color": "yellowLight2"
+          },
+          {
+            "id": "sel47Ij4iI4w2ennv",
+            "name": "Year-round",
+            "color": "orangeLight2"
+          },
+          {
+            "id": "sel4xPnhLh38v4LSf",
+            "name": "Recurrence",
+            "color": "blueLight2"
+          }
+        ]
+      },
+      "id": "fldkBEA2xhYZtLbQK",
+      "name": "Recurrence"
+    },
+    {
+      "type": "singleSelect",
+      "options": {
+        "choices": [
+          {
+            "id": "selTo72kBuHvqu7M6",
+            "name": "Year-round",
+            "color": "blueLight2"
+          },
+          {
+            "id": "selbLXiyUd5HR8dic",
+            "name": "Winter",
+            "color": "cyanLight2"
+          },
+          {
+            "id": "selu9sT9uS8BeoR0O",
+            "name": "Summer",
+            "color": "tealLight2"
+          },
+          {
+            "id": "selasoVELLTFqxiG7",
+            "name": "Spring/Fall",
+            "color": "greenLight2"
+          },
+          {
+            "id": "selwhZRgpDzYh14C8",
+            "name": "Season",
+            "color": "blueLight2"
+          }
+        ]
+      },
+      "id": "fldUWgFZwaLjRnitW",
+      "name": "Season"
+    },
+    {
+      "type": "singleSelect",
+      "options": {
+        "choices": [
+          {
+            "id": "selGKYKpnpSeVK78r",
+            "name": "Open",
+            "color": "blueLight2"
+          },
+          {
+            "id": "selkMeTIu6lhNgDzU",
+            "name": "Partially Fulfilled",
+            "color": "cyanLight2"
+          },
+          {
+            "id": "selM6weMjAUZRpdrx",
+            "name": "Fulfilled",
+            "color": "tealLight2"
+          },
+          {
+            "id": "seljvnpD5fOF1THza",
+            "name": "Closed",
+            "color": "greenLight2"
+          },
+          {
+            "id": "selKwetfIc52ekb95",
+            "name": "Status",
+            "color": "blueLight2"
+          }
+        ]
+      },
+      "id": "fldtN01sBj05O7efB",
+      "name": "Status"
+    },
+    {
+      "type": "multipleLookupValues",
+      "options": {
+        "isValid": true,
+        "recordLinkFieldId": "fldjtcAgOYagz5tdd",
+        "fieldIdInLinkedTable": "fldgqTSABd3doUgjy",
+        "result": {
+          "type": "multilineText"
+        }
+      },
+      "id": "fldeOHTrXTCgQwAL8",
+      "name": "Drop-off Location"
+    },
+    {
+      "type": "multipleLookupValues",
+      "options": {
+        "isValid": true,
+        "recordLinkFieldId": "fldjtcAgOYagz5tdd",
+        "fieldIdInLinkedTable": "fldOyvJLKJoYnJCF0",
+        "result": {
+          "type": "singleLineText"
+        }
+      },
+      "id": "fld4qkGSk9k6BP6aF",
+      "name": "Drop-off Hours"
+    },
+    {
+      "type": "multipleLookupValues",
+      "options": {
+        "isValid": true,
+        "recordLinkFieldId": "fldjtcAgOYagz5tdd",
+        "fieldIdInLinkedTable": "fldPOm4QB5X87bpTS",
+        "result": {
+          "type": "phoneNumber"
+        }
+      },
+      "id": "fld2UXo6UI1AGV1Bw",
+      "name": "Contact Phone"
+    },
+    {
+      "type": "singleLineText",
+      "id": "fldVjGmfZH5n6OlTU",
+      "name": "Contact Person"
+    },
+    {
+      "type": "email",
+      "id": "fld6N7rPfpBvucKj8",
+      "name": "Contact Email"
+    },
+    {
+      "type": "multilineText",
+      "id": "fldbAoTAogjHlQGOI",
+      "name": "Notes"
+    },
+    {
+      "type": "lastModifiedTime",
+      "options": {
+        "isValid": true,
+        "referencedFieldIds": [],
+        "result": {
+          "type": "date",
+          "options": {
+            "dateFormat": {
+              "name": "us",
+              "format": "M/D/YYYY"
+            }
+          }
+        }
+      },
+      "id": "fldoomgGa9Uh4eTl5",
+      "name": "Last Updated"
+    },
+    {
+      "type": "createdTime",
+      "options": {
+        "result": {
+          "type": "dateTime",
+          "options": {
+            "dateFormat": {
+              "name": "us",
+              "format": "M/D/YYYY"
+            },
+            "timeFormat": {
+              "name": "12hour",
+              "format": "h:mma"
+            },
+            "timeZone": "utc"
+          }
+        }
+      },
+      "id": "fldPVhAx5V4dV2OZK",
+      "name": "Created"
+    }
+  ],
+  "views": [
+    {
+      "id": "viw8QZKdp68o6IoaZ",
+      "name": "All donations",
+      "type": "grid"
+    }
+  ]
+}

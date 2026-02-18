@@ -11,7 +11,7 @@ const AIRTABLE_BASE_ID = process.env.NEXT_PUBLIC_AIRTABLE_BASE_ID;
 const DASHBOARD_TABLE_ID = "tblyqwTuZAkdk08WL";
 const PROVIDERS_TABLE_ID = "tblTQpGt9Th8ETHPh";
 const BED_TYPES_TABLE_ID = "tblTI5lFeTTGozx5q";
-const DONATIONS_TABLE_ID = "tblkPblJxjB8XsE0c";
+const DONATIONS_TABLE_ID = "tblgr5Ylq722TIv08";
 
 export async function fetchDashboardData(): Promise<DashboardData | null> {
   if (!AIRTABLE_API_KEY || !AIRTABLE_BASE_ID) {

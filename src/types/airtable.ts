@@ -119,17 +119,29 @@ export interface BedTypesRecord {
   createdTime: string;
 }
 
-// Interface for Donations/Needs table
+// Interface for Donations/Needs table (Community Donations)
 export interface DonationsTableFields {
-  "Item needed"?: string;
-  "Quantity needed"?: number;
-  "Who needs it"?: string[]; // Linked record - array of provider IDs
-  "Date needed by"?: string;
-  Description?: string;
+  "Item Name"?: string;
+  Category?: string;
+  "Requesting Organization"?: string[]; // Linked record - array of provider IDs
+  "Quantity Needed"?: number;
+  "Quantity Claimed"?: number;
+  "Quantity Delivered"?: number;
+  "Quantity Remaining"?: number; // Formula field
+  "Unit Type"?: string;
+  Priority?: string;
+  "Needed By"?: string;
+  Recurrence?: string;
+  Season?: string;
+  Status?: string;
+  "Drop-off Location"?: string[]; // Lookup field
+  "Drop-off Hours"?: string[]; // Lookup field
+  "Contact Phone"?: string[]; // Lookup field
+  "Contact Person"?: string;
+  "Contact Email"?: string;
   Notes?: string;
-  "How to donate"?: string;
-  Phone?: string;
-  "Buy URL"?: string;
+  "Last Updated"?: string;
+  Created?: string;
 }
 
 export interface DonationsRecord {

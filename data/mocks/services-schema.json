@@ -1,0 +1,261 @@
+{
+  "id": "tbly5BVK4NP9b7KU4",
+  "name": "Services",
+  "primaryFieldId": "fldvBHJ4JZIcze7cz",
+  "fields": [
+    {
+      "type": "multilineText",
+      "id": "fldvBHJ4JZIcze7cz",
+      "name": "Organization"
+    },
+    {
+      "type": "multilineText",
+      "id": "fldenJkDu4XK9Um3i",
+      "name": "Site Name"
+    },
+    {
+      "type": "singleSelect",
+      "options": {
+        "choices": [
+          {
+            "id": "selGDklD92wGByY4D",
+            "name": "HOUSING and SHELTER",
+            "color": "blueLight2"
+          },
+          {
+            "id": "sel7i160HZsFowFHH",
+            "name": "RESOURCE DIRECTORY",
+            "color": "cyanLight2"
+          },
+          {
+            "id": "selxjFXUFyzaEvUlG",
+            "name": "FOOD ASSISTANCE",
+            "color": "tealLight2"
+          },
+          {
+            "id": "selt8gWhxSY8s3lmI",
+            "name": "UTILITIES",
+            "color": "greenLight2"
+          },
+          {
+            "id": "selXaJxuMOmxwA7aa",
+            "name": "BEHAVIORAL HEALTH",
+            "color": "yellowLight2"
+          },
+          {
+            "id": "seluqISMe9jXNmvJM",
+            "name": "CRISIS INTERVENTION",
+            "color": "orangeLight2"
+          },
+          {
+            "id": "selYxQ5qcLDZaXMix",
+            "name": "FAMILY SUPPORT & EDUCATION",
+            "color": "redLight2"
+          },
+          {
+            "id": "selewKn9rrsTpUiU4",
+            "name": "HEALTH and HEALTH CARE",
+            "color": "pinkLight2"
+          },
+          {
+            "id": "selcSk0t6QudPb7hs",
+            "name": "AARP",
+            "color": "purpleLight2"
+          },
+          {
+            "id": "sel57Bf4KrzV7OTwG",
+            "name": "PRIMARY CARE",
+            "color": "grayLight2"
+          },
+          {
+            "id": "selvsmmnP28DzYkKf",
+            "name": "URGENT CARE",
+            "color": "blueLight1"
+          },
+          {
+            "id": "selnYRn9NbL1VALS5",
+            "name": "COURTS",
+            "color": "cyanLight1"
+          },
+          {
+            "id": "sel7YdtyCn2VlsUVQ",
+            "name": "52 SANTA FE COUNTY COMMUNITY SERVICES DEPARTMENT",
+            "color": "tealLight1"
+          },
+          {
+            "id": "selL97TLJLPO29KaY",
+            "name": "MUNICIPAL FACILITY",
+            "color": "greenLight1"
+          },
+          {
+            "id": "selTITNfJ88cnJcMK",
+            "name": "YOUTH DEVELOPMENT",
+            "color": "yellowLight1"
+          }
+        ]
+      },
+      "id": "fldIfxZ0CsA1cbAof",
+      "name": "Category"
+    },
+    {
+      "type": "multilineText",
+      "id": "fld7JgUHWqeBcliGl",
+      "name": "Address"
+    },
+    {
+      "type": "phoneNumber",
+      "id": "fldWH53H1N0pZcjF8",
+      "name": "Phone"
+    },
+    {
+      "type": "url",
+      "id": "fldnHPZR8m2qh0arB",
+      "name": "Website URL"
+    },
+    {
+      "type": "multilineText",
+      "id": "fldAqNlUd5ZQ4GKwQ",
+      "name": "Latitude"
+    },
+    {
+      "type": "multilineText",
+      "id": "fldCAzW4MozrwLGNB",
+      "name": "Longitude"
+    },
+    {
+      "type": "number",
+      "options": {
+        "precision": 0
+      },
+      "id": "fldyLW3PR4HfDG6XA",
+      "name": "Council District"
+    },
+    {
+      "type": "checkbox",
+      "options": {
+        "icon": "check",
+        "color": "greenBright"
+      },
+      "id": "fld7x8zyODLKQdBVU",
+      "name": "Inside City (Y/N)"
+    },
+    {
+      "type": "multilineText",
+      "id": "fldbVstuTa7YTULgq",
+      "name": "Notes"
+    },
+    {
+      "type": "singleSelect",
+      "options": {
+        "choices": [
+          {
+            "id": "sel9je1nrjgLvX4LB",
+            "name": "OK",
+            "color": "blueLight2"
+          },
+          {
+            "id": "selErOoH9mOdyvTQr",
+            "name": "NEEDS ADDRESS",
+            "color": "cyanLight2"
+          }
+        ]
+      },
+      "id": "flda6xcQHvFgXm3x2",
+      "name": "Address Status"
+    },
+    {
+      "type": "singleSelect",
+      "options": {
+        "choices": [
+          {
+            "id": "selQ5a6k1cCj9ECjT",
+            "name": "CONFIRMED VIA CITY/COUNTY MAPS (Cerrillos corridor in D3)",
+            "color": "blueLight2"
+          },
+          {
+            "id": "selX9MI7mBjPSU9Hf",
+            "name": "LIKELY VIA MAP (Midtown/St Michaels corridor in D4)",
+            "color": "cyanLight2"
+          },
+          {
+            "id": "selBP45nPNddCOlFr",
+            "name": "LIKELY VIA MAP (Guadalupe/Railyard area in D2)",
+            "color": "tealLight2"
+          },
+          {
+            "id": "seluxrdOXQ7cuzQox",
+            "name": "CONFIRMED VIA DISTRICT 2 MAP (Berry Ave labeled)",
+            "color": "greenLight2"
+          },
+          {
+            "id": "selTVXktNyNWzDiAx",
+            "name": "LIKELY VIA MAP (S St Francis corridor in D4)",
+            "color": "yellowLight2"
+          },
+          {
+            "id": "selNOxGzOO3C6IZwB",
+            "name": "NEEDS DISTRICT",
+            "color": "orangeLight2"
+          },
+          {
+            "id": "selmFmQEV0D8yiNXm",
+            "name": "OK",
+            "color": "redLight2"
+          }
+        ]
+      },
+      "id": "fldxDMozPwLqUtwOX",
+      "name": "District Status"
+    },
+    {
+      "type": "number",
+      "options": {
+        "precision": 0
+      },
+      "id": "fldPBfgWRjK7uKbSC",
+      "name": "Council District (updated)"
+    },
+    {
+      "type": "singleLineText",
+      "id": "fldkyUgG7fytjCZ8B",
+      "name": "People"
+    },
+    {
+      "type": "singleLineText",
+      "id": "fldCpiEp34YDT5o5b",
+      "name": "People 2"
+    }
+  ],
+  "views": [
+    {
+      "id": "viwimVYYzN4iKkvn9",
+      "name": "All",
+      "type": "grid"
+    },
+    {
+      "id": "viwJrv7fT3UXedaTV",
+      "name": "Needs District",
+      "type": "grid"
+    },
+    {
+      "id": "viwYplYmtCNPz6GdN",
+      "name": "Needs Address",
+      "type": "grid"
+    },
+    {
+      "id": "viwRwoFTli8vj1J4Z",
+      "name": "Food Related",
+      "type": "grid"
+    },
+    {
+      "id": "viwQwsIYrYdxwjPPN",
+      "name": "Gallery",
+      "type": "gallery"
+    },
+    {
+      "id": "viwSGnxsureLrvQIw",
+      "name": "Kanban",
+      "type": "kanban"
+    }
+  ]
+}

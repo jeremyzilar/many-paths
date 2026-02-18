@@ -1,6 +1,6 @@
 ---
 title: Follow-up Email to Henri and Lia
-to: Henri Thompson, Lia [Last Name]
+to: Henri, Lia
 from: Jeremy Zilar
 date: November 11, 2025
 ---
@@ -13,91 +13,71 @@ date: November 11, 2025
 
 Hi Henri and Lia,
 
-Thank you both for taking the time to meet last week. The conversation about the City operating Many Paths while I provide the infrastructure and program support really clarified the path forward in my mind.
+Thank you both for taking the time to meet on Monday. In particular, I found our discussion about the City operating The Many Paths Project while I provide the infrastructure and program support really clarifying. Taking a fresh look at our existing contract, it makes a lot of sense to focus on delivering what we outlined there and using that as the foundation from which to build everything else.
 
-I've been thinking about what this could look like in practice, and I wanted to share how I'm envisioning the structure before Thursday's provider meeting. Would love your thoughts.
+I wanted to share where we stand, clarify our respective responsibilities, and identify what I'll need from your team to complete this work. I'd love your thoughts and feedback.
 
-## The Model I'm Proposing
+**The goal of our current contract** is to co-design and pilot a lightweight, shared coordination system that improves how teams from multiple service organizations work together to connect individuals to shelter, services, and long-term support.
 
-Rather than continuing with emergency contracts, I'd like to structure this as a **platform license + services agreement** between the City and Many Paths. Think of it like MyChart—the City would operate the program and govern the data, while Many Paths provides the software, implementation, and ongoing updates.
+To ensure we're aligned on who owns what:
 
-**What this looks like:**
+**City's Responsibilities:**
 
-**The City gets:**
-- Full operational control and data stewardship
-- A by-name list tool for coordinating homeless services
-- Public-facing dashboard for community awareness
-- Training for the three approved positions under you, Lia
-- Ongoing technical support and platform updates
+- Data ownership and governance
+- Establishing and maintaining the Airtable account
+- Signing Business Associate Agreement (BAA) with Airtable as the covered entity
+- Compliance oversight and enforcing access policies
+- Staff coordination and provider relationships
+- Operational decisions about how the system is used
 
-**Many Paths provides:**
-- The platform infrastructure (Airtable base, website, tools)
-- Implementation services (workshops, training, rollout)
-- Ongoing product development and improvements
-- Embedded support during the critical first 6 months
-- Program design and coordination methodology
+**Many Paths (EAD Design) Responsibilities:**
 
-**Why this structure works:**
-- Positions the City as the trusted operator (which is what Henri articulated)
-- Gives you institutional control while keeping the project nimble
-- Creates a sustainable funding path through City contracts
-- Avoids the "we're building this from scratch" procurement headaches
-- Sets up a model that could be replicated if other NM cities are interested
+- Technical architecture and Airtable base configuration services
+- Platform security and technical safeguards (as business associate/subprocessor)
+- Workshop and training facilitation services
+- Documentation of workflows and governance recommendations
+- Technical support and consultation through implementation
 
-## What Year 1 Would Look Like
+**Note:** Public-facing website and dashboard development will be scoped as a separate phase following the completion of this foundational work.
 
-I'm envisioning approximately **$100K for Year 1**, structured however matches your procurement process best (quarterly contracts, etc.). Here's what that covers:
+## What I Need from the City
 
-**Implementation (Nov 2025 - Feb 2026):**
-- Workshop with providers to design the by-name list
-- Technical buildout based on their input
-- Training for City staff and provider partners
-- Launch support with HUGS, MIHO, SouthWest Cares
+To complete this contract successfully by December 15, I'll need support from your team in the following areas:
 
-**Embedded Support (Mar - Aug 2026):**
-- Regular check-ins with providers and City staff
-- Monthly retrospectives to refine the system
-- Ongoing improvements based on real-world use
-- Dashboard and public-facing tools development
+**Airtable Account Setup:**
+The City needs to establish and maintain the Airtable account, as you'll be the covered entity for BAA purposes. I can guide you through the setup process and requirements. I can loop you in with the Airtable folks over email and we can likely get this set up in a matter of hours.
 
-**Platform License + Maintenance:**
-- Hosting, security, HIPAA compliance
-- Technical updates and bug fixes
-- Data governance and privacy safeguards
-- Documentation and playbooks
+**Staff Availability for Training:**
+Multiple check-in and training sessions with City staff throughout the implementation period. This ensures the system meets your operational needs and staff are comfortable using it.
 
-After Year 1, ongoing maintenance and support would be roughly **$35-50K annually**, which is very manageable for infrastructure this critical.
+**Subdomain Access:**
+I'd like to request a city subdomain (such as manypaths.santafe.gov or similar) rather than using an alternate domain. This is just for DNS/subdomain configuration—not server space—and helps establish the system as an official City resource.
 
-## The Team I'd Need to Bring In
-
-To do this right, I'd need to bring in a couple of folks to support me:
-
-**Juliette (Design and Strategy):**
-My wife and design partner. She's been thinking through this model with me and would handle the visual design, communications, and user experience work.
-
-**One Strategic Partner (Former 18F):**
-I'm thinking Alan Brouilette, who was Chief of Staff at 18F. He'd help with implementation design, provider facilitation, and building out the replication playbook. Having someone with deep civic tech and government experience would ensure we're building something sustainable and replicable.
-
-This keeps the team small and nimble while bringing in the expertise needed to get this right. I'd continue working remotely with frequent visits to Santa Fe, as I have been.
-
-## Why I Think This Can Work
-
-You mentioned the three approved positions under Lia. That tells me there's already budget allocated for this kind of coordination work. This structure would complement those hires by giving them a platform to work with from day one.
-
-The emergency contracts have been working to get us here, but formalizing this as a platform service sets up something more sustainable—for the City, for providers, and for the people you're all working to support.
+**Provider Coordination Support:**
+Help orchestrating providers to begin using the by-name list. This includes making introductions, helping schedule training sessions, and providing internal advocacy to encourage adoption.
 
 ## Next Steps
 
-I'd love to hear your thoughts on this structure before Thursday's provider meeting. A few questions I'm thinking through:
+To keep us on track for the December 15 completion, we need to:
 
-1. Does the platform license model make sense from your procurement perspective?
-2. Is $100K for Year 1 in the right ballpark for what you're envisioning?
-3. Would you want the City to be the fiscal sponsor, or should Many Paths establish that separately? (Henri, I know you mentioned the City being the steward—curious how you're thinking about the legal structure.)
-4. What timeline are you imagining for getting something formal in place?
+1. **Confirm the division of responsibilities** outlined above—particularly around the Airtable account setup and BAA signing
+2. **Establish the Airtable account** and initiate BAA process with Airtable
+3. **Schedule remaining training sessions** with City staff and provider partners
+4. **Coordinate subdomain setup** (if you're comfortable with that approach)
+5. **Finalize data-sharing agreements** with providers outlining terms of use and confidentiality
+6. **Define roles for data management** including who will be responsible for quality control and ongoing maintenance
 
-I'm also meeting with Monet from the Coalition tomorrow to introduce the project and ask for their partnership. I'll be emphasizing how this gives them better real-time data to inform their housing decisions, which feels like it could address some of the success rate challenges we've talked about.
+Success in this foundational phase looks like:
 
-Let me know what resonates and what feels off. Happy to jump on a call if that's easier than email.
+- Functional by-name list system that City staff and providers are actively using for coordination
+- Clear governance framework with documented roles, responsibilities, and decision-making protocols
+- Trained cohort of City staff and provider partners comfortable managing and updating the system
+- Data-sharing agreements in place with participating providers
+- Documented onboarding process ready for bringing additional providers into the system
+
+Once we complete this foundational phase, we can discuss what a next phase might look like—including public-facing website and dashboard development. For now, I'm focused on delivering what we committed to in this contract.
+
+Let me know your thoughts on this approach, or if you'd prefer to discuss by phone.
 
 Thanks for your partnership on this. It means a lot to be building something that can actually support the work happening on the ground.
 
@@ -110,4 +90,3 @@ Jeremy
 Many Paths Project  
 EAD Design  
 [Contact Information]
-

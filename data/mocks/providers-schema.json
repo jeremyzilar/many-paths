@@ -92,6 +92,11 @@
       "name": "Donations needed"
     },
     {
+      "type": "multilineText",
+      "id": "fldgqTSABd3doUgjy",
+      "name": "Address"
+    },
+    {
       "type": "url",
       "id": "fldcKhzdPVcdOY8sV",
       "name": "Website"
@@ -105,6 +110,11 @@
       "type": "url",
       "id": "fldMBPSac528UuCIQ",
       "name": "Donate URL"
+    },
+    {
+      "type": "singleLineText",
+      "id": "fldOyvJLKJoYnJCF0",
+      "name": "Donation Hours"
     },
     {
       "type": "url",
@@ -143,13 +153,13 @@
     {
       "type": "multipleRecordLinks",
       "options": {
-        "linkedTableId": "tblrNE27jkp9vWLFF",
+        "linkedTableId": "tblgr5Ylq722TIv08",
         "isReversed": false,
         "prefersSingleRecordLink": false,
-        "inverseLinkFieldId": "fldDcZiFOO5I18lqG"
+        "inverseLinkFieldId": "fldjtcAgOYagz5tdd"
       },
-      "id": "fldJt0h0R3Z9lg7HI",
-      "name": "Team"
+      "id": "fldgoBzvv21vB9ZhO",
+      "name": "Donations"
     }
   ],
   "views": [

@@ -1,0 +1,1222 @@
+[
+  {
+    "id": "rec018VLVO3aplQKU",
+    "createdTime": "2025-11-08T16:32:49.000Z",
+    "fields": {
+      "Organization": "Littleglobe, Inc.",
+      "Site Name": "Media Arts Fellowship",
+      "Category": "YOUTH DEVELOPMENT",
+      "Address": "1704-B Llano St, Santa Fe, NM 87505",
+      "Phone": "505-980-6218",
+      "Website URL": "https://littleglobe.org",
+      "Council District": 3,
+      "Inside City (Y/N)": true,
+      "Address Status": "OK",
+      "District Status": "OK",
+      "Council District (updated)": 3
+    }
+  },
+  {
+    "id": "rec03IEZEp5HexYax",
+    "createdTime": "2025-11-08T16:32:49.000Z",
+    "fields": {
+      "Organization": "The Food Depot",
+      "Site Name": "Food 4 Pets",
+      "Category": "FOOD ASSISTANCE",
+      "Address": "1222 A Siler Rd, Santa Fe, NM 87507",
+      "Phone": "505-531-4949",
+      "Website URL": "https://www.thefooddepot.org",
+      "Council District": 3,
+      "Inside City (Y/N)": true,
+      "Notes": "Pet food support",
+      "Address Status": "OK",
+      "District Status": "OK",
+      "Council District (updated)": 3
+    }
+  },
+  {
+    "id": "rec0iQTXHDLGCpiS2",
+    "createdTime": "2025-11-08T16:32:49.000Z",
+    "fields": {
+      "Organization": "Therapy, Group and Individual Counseling",
+      "Category": "BEHAVIORAL HEALTH",
+      "Phone": "988",
+      "Address Status": "NEEDS ADDRESS",
+      "District Status": "NEEDS DISTRICT"
+    }
+  },
+  {
+    "id": "rec1EVodneaFfFjes",
+    "createdTime": "2025-11-08T16:32:49.000Z",
+    "fields": {
+      "Organization": "Women’s Health",
+      "Category": "AARP",
+      "Phone": "988",
+      "Address Status": "NEEDS ADDRESS",
+      "District Status": "NEEDS DISTRICT"
+    }
+  },
+  {
+    "id": "rec2Af0QSjkv0gJNj",
+    "createdTime": "2025-11-08T16:32:49.000Z",
+    "fields": {
+      "Organization": "St. Elizabeth’s Shelter",
+      "Site Name": "Casa Familia (Women & Families)",
+      "Category": "HOUSING and SHELTER",
+      "Address": "1604 Berry Ave, Santa Fe, NM 87505",
+      "Phone": "505-983-2042",
+      "Council District": 2,
+      "Address Status": "OK",
+      "District Status": "CONFIRMED VIA DISTRICT 2 MAP (Berry Ave labeled)",
+      "Council District (updated)": 2
+    }
+  },
+  {
+    "id": "rec2CRspZYYA7GlfT",
+    "createdTime": "2025-11-08T16:32:49.000Z",
+    "fields": {
+      "Organization": "The Food Depot",
+      "Site Name": "Northern NM Mobile Food Pantry",
+      "Category": "FOOD ASSISTANCE",
+      "Address": "1222 A Siler Rd, Santa Fe, NM 87507",
+      "Phone": "505-531-4949",
+      "Website URL": "https://www.thefooddepot.org",
+      "Council District": 3,
+      "Inside City (Y/N)": true,
+      "Notes": "Regional sites incl. County",
+      "Address Status": "OK",
+      "District Status": "OK",
+      "Council District (updated)": 3
+    }
+  },
+  {
+    "id": "rec3SQo2expla2sW4",
+    "createdTime": "2025-11-08T16:32:49.000Z",
+    "fields": {
+      "Organization": "Santa Fe Community Services",
+      "Site Name": "Harm Reduction",
+      "Category": "BEHAVIORAL HEALTH",
+      "Address": "1233 Camino Carlos Rey, Santa Fe, NM 87507",
+      "Phone": "505-310-3624",
+      "Council District": 3,
+      "Inside City (Y/N)": true,
+      "Address Status": "OK",
+      "District Status": "OK",
+      "Council District (updated)": 3
+    }
+  },
+  {
+    "id": "rec3T6VC2SubGpSWU",
+    "createdTime": "2025-11-08T16:32:49.000Z",
+    "fields": {
+      "Organization": "Big Brothers Big Sisters Mountain Region",
+      "Site Name": "Mentoring Programs",
+      "Category": "YOUTH DEVELOPMENT",
+      "Address": "1227 S Saint Francis Dr, Santa Fe, NM 87505",
+      "Phone": "505-983-8360",
+      "Website URL": "https://www.bbbsmountainregion.org",
+      "Council District": 3,
+      "Inside City (Y/N)": true,
+      "Address Status": "OK",
+      "District Status": "OK",
+      "Council District (updated)": 3
+    }
+  },
+  {
+    "id": "rec3W92OHdFYvoYeh",
+    "createdTime": "2025-11-08T16:32:49.000Z",
+    "fields": {
+      "Organization": "Santa Fe Civic Housing Authority",
+      "Site Name": "Santa Fe Office",
+      "Category": "HOUSING and SHELTER",
+      "Address": "664 Alta Vista St, Santa Fe, NM 87505",
+      "Phone": "505-930-5901",
+      "Council District": 2,
+      "Notes": "Public housing & HCV (separate entity from City)",
+      "Address Status": "OK",
+      "District Status": "NEEDS DISTRICT"
+    }
+  },
+  {
+    "id": "rec4jnwxcIv87lRua",
+    "createdTime": "2025-11-08T16:32:49.000Z",
+    "fields": {
+      "Organization": "The Housing Trust",
+      "Site Name": "Main Office",
+      "Category": "HOUSING and SHELTER",
+      "Address": "1111 Agua Fria St, Santa Fe, NM 87501",
+      "Phone": "505-989-3960",
+      "Council District": 1,
+      "Notes": "Affordable housing developer & lending",
+      "Address Status": "OK",
+      "District Status": "NEEDS DISTRICT"
+    }
+  },
+  {
+    "id": "rec57tgSLenzhLhtJ",
+    "createdTime": "2025-11-08T16:32:49.000Z",
+    "fields": {
+      "Organization": "City of Santa Fe - Community Services (Youth & Family Services)",
+      "Site Name": "Youth Programs",
+      "Category": "YOUTH DEVELOPMENT",
+      "Address": "200 Lincoln Ave, Santa Fe, NM 87501",
+      "Phone": "505-955-4005",
+      "Website URL": "https://www.santafenm.gov",
+      "Council District": 1,
+      "Inside City (Y/N)": true,
+      "Notes": "City Hall",
+      "Address Status": "OK",
+      "District Status": "OK",
+      "Council District (updated)": 1
+    }
+  },
+  {
+    "id": "rec5XgWL6vJyv6J8S",
+    "createdTime": "2025-11-08T16:32:49.000Z",
+    "fields": {
+      "Organization": "Solace Sexual Assault Services",
+      "Site Name": "Clinical, Advocacy, Education",
+      "Category": "BEHAVIORAL HEALTH",
+      "Address": "6601 Valentine Way, Santa Fe, NM 87507",
+      "Phone": "505-988-1951",
+      "Website URL": "https://www.findsolace.org",
+      "Council District": 3,
+      "Inside City (Y/N)": true,
+      "Address Status": "OK",
+      "District Status": "OK",
+      "Council District (updated)": 3
+    }
+  },
+  {
+    "id": "rec5rDF9lMepaQ7QI",
+    "createdTime": "2025-11-08T16:32:49.000Z",
+    "fields": {
+      "Organization": "PMAD (Perinatal Mood and Anxiety Disorder) Support",
+      "Category": "FAMILY SUPPORT & EDUCATION",
+      "Phone": "505-983-5984",
+      "Address Status": "NEEDS ADDRESS",
+      "District Status": "NEEDS DISTRICT"
+    }
+  },
+  {
+    "id": "rec7957ufUImWdEWf",
+    "createdTime": "2025-11-08T16:32:49.000Z",
+    "fields": {
+      "Organization": "Santa Fe Indian Hospital",
+      "Category": "PRIMARY CARE",
+      "Phone": "988",
+      "Address Status": "NEEDS ADDRESS",
+      "District Status": "NEEDS DISTRICT"
+    }
+  },
+  {
+    "id": "rec8v3LzEnuDSbsw7",
+    "createdTime": "2025-11-08T16:32:49.000Z",
+    "fields": {
+      "Organization": "Interfaith Community Shelter (Pete’s Place)",
+      "Site Name": "Main Shelter & Day Services",
+      "Category": "HOUSING and SHELTER",
+      "Address": "2801 Cerrillos Rd, Santa Fe, NM 87507",
+      "Phone": "505-795-7494",
+      "Council District": 3,
+      "Notes": "Primary service site; showers, navigation; seasonal shelter",
+      "Address Status": "OK",
+      "District Status": "CONFIRMED VIA CITY/COUNTY MAPS (Cerrillos corridor in D3)",
+      "Council District (updated)": 3
+    }
+  },
+  {
+    "id": "rec8wrpxdMiSnYqsx",
+    "createdTime": "2025-11-08T16:32:49.000Z",
+    "fields": {
+      "Organization": "Crisis & Access Line, New Mexico 1(855) 662-7474",
+      "Category": "RESOURCE DIRECTORY",
+      "Phone": "988",
+      "Address Status": "NEEDS ADDRESS",
+      "District Status": "NEEDS DISTRICT"
+    }
+  },
+  {
+    "id": "recBw0WKJ2vzW3NA9",
+    "createdTime": "2025-11-08T16:32:49.000Z",
+    "fields": {
+      "Organization": "Light at Mission Viejo",
+      "Site Name": "Food Pantry (Shelf-stable)",
+      "Category": "FOOD ASSISTANCE",
+      "Address": "4601 Mission Bend, Santa Fe, NM 87507",
+      "Phone": "505-982-2080",
+      "Council District": 3,
+      "Inside City (Y/N)": true,
+      "Address Status": "OK",
+      "District Status": "OK",
+      "Council District (updated)": 3
+    }
+  },
+  {
+    "id": "recBzd8Fr7yWMClUf",
+    "createdTime": "2025-11-08T16:32:49.000Z",
+    "fields": {
+      "Organization": "Utilities, Rent, Other",
+      "Category": "URGENT CARE",
+      "Phone": "988",
+      "Address Status": "NEEDS ADDRESS",
+      "District Status": "NEEDS DISTRICT"
+    }
+  },
+  {
+    "id": "recDCxJwn05vZGRb3",
+    "createdTime": "2025-11-08T16:32:49.000Z",
+    "fields": {
+      "Organization": "New Mexico Coalition to End Homelessness",
+      "Site Name": "Santa Fe Office",
+      "Category": "HOUSING and SHELTER",
+      "Address": "440 Cerrillos Rd, Suite 4, Santa Fe, NM 87501",
+      "Phone": "505-982-9000",
+      "Council District": 1,
+      "Notes": "Admin/support org; not a shelter site",
+      "Address Status": "OK",
+      "District Status": "NEEDS DISTRICT"
+    }
+  },
+  {
+    "id": "recDd82qTXyRrffIR",
+    "createdTime": "2025-11-08T16:32:49.000Z",
+    "fields": {
+      "Organization": "Santa Fe Public Schools – Adelante Program",
+      "Site Name": "Program Office",
+      "Category": "HOUSING and SHELTER",
+      "Phone": "505-467-2524",
+      "Notes": "District program supporting students & families experiencing homelessness",
+      "Address Status": "NEEDS ADDRESS",
+      "District Status": "NEEDS DISTRICT"
+    }
+  },
+  {
+    "id": "recDnEL7Hx4F0Odwx",
+    "createdTime": "2025-11-08T16:32:49.000Z",
+    "fields": {
+      "Organization": "Santa Fe County Senior Services",
+      "Site Name": "Home Delivered Meals",
+      "Category": "FOOD ASSISTANCE",
+      "Address": "2052 Galisteo St, Santa Fe, NM 87505",
+      "Phone": "505-992-3069",
+      "Website URL": "https://www.santafecountynm.gov",
+      "Council District": 4,
+      "Inside City (Y/N)": true,
+      "Address Status": "OK",
+      "District Status": "OK",
+      "Council District (updated)": 4
+    }
+  },
+  {
+    "id": "recEg2G7tkL6r1oKl",
+    "createdTime": "2025-11-08T16:32:49.000Z",
+    "fields": {
+      "Organization": "Chainbreaker Collective",
+      "Site Name": "Office / Bicycle Resource Center",
+      "Category": "HOUSING and SHELTER",
+      "Address": "1519 Fifth St, Santa Fe, NM 87505",
+      "Phone": "505-989-3858",
+      "Council District": 2,
+      "Notes": "Eviction Prevention Hotline: 505-577-5491",
+      "Address Status": "OK",
+      "District Status": "NEEDS DISTRICT",
+      "People": "Teresa Morgan"
+    }
+  },
+  {
+    "id": "recFj5eHujb3q1XZi",
+    "createdTime": "2025-11-08T16:32:49.000Z",
+    "fields": {
+      "Organization": "Food Pantry & Meal Assistance",
+      "Category": "FOOD ASSISTANCE",
+      "Phone": "988",
+      "Address Status": "NEEDS ADDRESS",
+      "District Status": "NEEDS DISTRICT",
+      "People": "Austin Wilson"
+    }
+  },
+  {
+    "id": "recFyUJW4BB0fsYK0",
+    "createdTime": "2025-11-08T16:32:49.000Z",
+    "fields": {
+      "Organization": "Santa Fe Teen Center",
+      "Site Name": "Recreation & Youth Engagement",
+      "Category": "YOUTH DEVELOPMENT",
+      "Address": "6600 Valentine Way, Santa Fe, NM 87507",
+      "Phone": "505-955-4101",
+      "Website URL": "https://www.santafenm.gov",
+      "Council District": 3,
+      "Inside City (Y/N)": true,
+      "Notes": "Zona del Sol campus",
+      "Address Status": "OK",
+      "District Status": "OK",
+      "Council District (updated)": 3
+    }
+  },
+  {
+    "id": "recIv8JZpe1ETdQlN",
+    "createdTime": "2025-11-08T16:32:49.000Z",
+    "fields": {
+      "Organization": "29 Del Corazon Hospice",
+      "Category": "AARP",
+      "Phone": "988",
+      "Address Status": "NEEDS ADDRESS",
+      "District Status": "NEEDS DISTRICT"
+    }
+  },
+  {
+    "id": "recJMdN7pd5bVqc53",
+    "createdTime": "2025-11-08T16:32:49.000Z",
+    "fields": {
+      "Organization": "The Food Depot",
+      "Site Name": "Children’s Lunch Box Express (Summer)",
+      "Category": "FOOD ASSISTANCE",
+      "Address": "1222 A Siler Rd, Santa Fe, NM 87507",
+      "Phone": "505-531-4949",
+      "Website URL": "https://www.thefooddepot.org",
+      "Council District": 3,
+      "Inside City (Y/N)": true,
+      "Notes": "Mobile distribution routes",
+      "Address Status": "OK",
+      "District Status": "OK",
+      "Council District (updated)": 3
+    }
+  },
+  {
+    "id": "recK0dPHamt0enHfK",
+    "createdTime": "2025-11-08T16:32:49.000Z",
+    "fields": {
+      "Organization": "Fort Marcy Complex",
+      "Site Name": "Fort Marcy Recreation Complex",
+      "Category": "MUNICIPAL FACILITY",
+      "Phone": "505-955-2500",
+      "Website URL": "https://www.santafenm.gov",
+      "Notes": "City facility; verify address via GIS",
+      "Address Status": "NEEDS ADDRESS",
+      "District Status": "NEEDS DISTRICT"
+    }
+  },
+  {
+    "id": "recL1a0rUaJg24vJf",
+    "createdTime": "2025-11-08T16:32:49.000Z",
+    "fields": {
+      "Organization": "Monte del Sol Charter School (CASA Program)",
+      "Site Name": "Academic + Family Support",
+      "Category": "YOUTH DEVELOPMENT",
+      "Address": "4157 Walking Rain Rd, Santa Fe, NM 87507",
+      "Phone": "505-982-5225",
+      "Website URL": "https://www.montedelsol.org",
+      "Notes": "Likely outside city limits",
+      "Address Status": "OK",
+      "District Status": "OK"
+    }
+  },
+  {
+    "id": "recL27kMEYU90OHmY",
+    "createdTime": "2025-11-08T16:32:49.000Z",
+    "fields": {
+      "Organization": "Intensive Outpatient Treatment Program",
+      "Category": "BEHAVIORAL HEALTH",
+      "Phone": "1(877) 499-1354",
+      "Address Status": "NEEDS ADDRESS",
+      "District Status": "NEEDS DISTRICT"
+    }
+  },
+  {
+    "id": "recLdJZ4PACnwNtDX",
+    "createdTime": "2025-11-08T16:32:49.000Z",
+    "fields": {
+      "Organization": "Christ Lutheran Church",
+      "Site Name": "Food Pantry",
+      "Category": "FOOD ASSISTANCE",
+      "Address": "1701 Arroyo Chamiso, Santa Fe, NM 87505",
+      "Phone": "505-983-9461",
+      "Website URL": "https://www.christsantafe.org",
+      "Council District": 4,
+      "Inside City (Y/N)": true,
+      "Address Status": "OK",
+      "District Status": "OK",
+      "Council District (updated)": 4
+    }
+  },
+  {
+    "id": "recLi5zRxJnKlP3HN",
+    "createdTime": "2025-11-08T16:32:49.000Z",
+    "fields": {
+      "Organization": "Boys & Girls Club of Santa Fe/Del Norte",
+      "Site Name": "Clubhouse & Teen Programs",
+      "Category": "YOUTH DEVELOPMENT",
+      "Address": "6600 Valentine Way, Santa Fe, NM 87507",
+      "Phone": "505-474-0385",
+      "Website URL": "https://www.bgcsantafe.org",
+      "Council District": 3,
+      "Inside City (Y/N)": true,
+      "Notes": "Zona del Sol campus",
+      "Address Status": "OK",
+      "District Status": "OK",
+      "Council District (updated)": 3
+    }
+  },
+  {
+    "id": "recLj6BEpSCVcO4lm",
+    "createdTime": "2025-11-08T16:32:49.000Z",
+    "fields": {
+      "Organization": "Earth Care",
+      "Site Name": "Youth Leadership & Civics",
+      "Category": "YOUTH DEVELOPMENT",
+      "Address": "6600 Valentine Way, Santa Fe, NM 87507",
+      "Phone": "505-688-1191",
+      "Website URL": "https://www.earthcarenm.org",
+      "Council District": 3,
+      "Inside City (Y/N)": true,
+      "Notes": "Zona del Sol campus",
+      "Address Status": "OK",
+      "District Status": "OK",
+      "Council District (updated)": 3
+    }
+  },
+  {
+    "id": "recMRP646fUnF4jJo",
+    "createdTime": "2025-11-08T16:32:49.000Z",
+    "fields": {
+      "Organization": "Tierra Nueva Counseling Center",
+      "Site Name": "Outpatient Counseling",
+      "Category": "BEHAVIORAL HEALTH",
+      "Address": "1511 Fifth St, Santa Fe, NM 87505",
+      "Phone": "505-471-8575",
+      "Council District": 3,
+      "Inside City (Y/N)": true,
+      "Address Status": "OK",
+      "District Status": "OK",
+      "Council District (updated)": 3
+    }
+  },
+  {
+    "id": "recMaCqBg2bcL4QMq",
+    "createdTime": "2025-11-08T16:32:49.000Z",
+    "fields": {
+      "Organization": "Non -Medical In-Home Care",
+      "Category": "HEALTH and HEALTH CARE",
+      "Phone": "988",
+      "Address Status": "NEEDS ADDRESS",
+      "District Status": "NEEDS DISTRICT"
+    }
+  },
+  {
+    "id": "recNLD1fw5Pcc2kUT",
+    "createdTime": "2025-11-08T16:32:49.000Z",
+    "fields": {
+      "Organization": "Girls Inc. of Santa Fe",
+      "Site Name": "Academic & Life Skills",
+      "Category": "YOUTH DEVELOPMENT",
+      "Address": "301 Hillside Ave, Santa Fe, NM 87501",
+      "Phone": "505-982-2042",
+      "Website URL": "https://girlsincofsantafe.org",
+      "Council District": 1,
+      "Inside City (Y/N)": true,
+      "Address Status": "OK",
+      "District Status": "OK",
+      "Council District (updated)": 1
+    }
+  },
+  {
+    "id": "recOu6Brcgo9U4Acp",
+    "createdTime": "2025-11-08T16:32:49.000Z",
+    "fields": {
+      "Organization": "Santa Fe Vet Center",
+      "Category": "FAMILY SUPPORT & EDUCATION",
+      "Phone": "988",
+      "Address Status": "NEEDS ADDRESS",
+      "District Status": "NEEDS DISTRICT"
+    }
+  },
+  {
+    "id": "recPGkLnIPVyC4KSe",
+    "createdTime": "2025-11-08T16:32:49.000Z",
+    "fields": {
+      "Organization": "St. Elizabeth’s Shelter",
+      "Site Name": "Men’s Emergency Shelter",
+      "Category": "HOUSING and SHELTER",
+      "Address": "804 Alarid St, Santa Fe, NM 87505",
+      "Phone": "505-982-6611",
+      "Council District": 2,
+      "Address Status": "OK",
+      "District Status": "LIKELY VIA MAP (Guadalupe/Railyard area in D2)",
+      "Council District (updated)": 2
+    }
+  },
+  {
+    "id": "recPlh2vvyUAB3nMT",
+    "createdTime": "2025-11-08T16:32:49.000Z",
+    "fields": {
+      "Organization": "Santa Fe County Fire Department - Mobile Integrated Health",
+      "Site Name": "Mobile Integrated Health Program",
+      "Category": "BEHAVIORAL HEALTH",
+      "Address": "35 Camino Justicia, Santa Fe, NM 87508",
+      "Phone": "505-992-3057",
+      "Website URL": "https://www.santafecountynm.gov",
+      "Notes": "County complex; often outside city limits",
+      "Address Status": "OK",
+      "District Status": "OK"
+    }
+  },
+  {
+    "id": "recQpgjddDGdYBxdU",
+    "createdTime": "2025-11-08T16:32:49.000Z",
+    "fields": {
+      "Organization": "Luisa Senior Center",
+      "Site Name": "Senior Center",
+      "Category": "MUNICIPAL FACILITY",
+      "Phone": "505-955-4711",
+      "Website URL": "https://www.santafenm.gov",
+      "Notes": "City facility; verify address via GIS",
+      "Address Status": "NEEDS ADDRESS",
+      "District Status": "NEEDS DISTRICT"
+    }
+  },
+  {
+    "id": "recScrCJrlE1y1eUj",
+    "createdTime": "2025-11-08T16:32:49.000Z",
+    "fields": {
+      "Organization": "Bienvenidos Outreach, Inc.",
+      "Site Name": "Food Pantry",
+      "Category": "FOOD ASSISTANCE",
+      "Address": "1511 Fifth St, Santa Fe, NM 87505",
+      "Phone": "505-986-0583",
+      "Website URL": "https://www.bienvenidosoutreach.org",
+      "Council District": 3,
+      "Inside City (Y/N)": true,
+      "Address Status": "OK",
+      "District Status": "OK",
+      "Council District (updated)": 3
+    }
+  },
+  {
+    "id": "recT7mMsJJAh6bErW",
+    "createdTime": "2025-11-08T16:32:49.000Z",
+    "fields": {
+      "Organization": "(Located at The Salvation Army*)",
+      "Category": "UTILITIES",
+      "Phone": "988",
+      "Address Status": "NEEDS ADDRESS",
+      "District Status": "NEEDS DISTRICT"
+    }
+  },
+  {
+    "id": "recURSn6L5lyIMCFm",
+    "createdTime": "2025-11-08T16:32:49.000Z",
+    "fields": {
+      "Organization": "Resources for Survivors of Violent Crimes",
+      "Category": "COURTS",
+      "Phone": "988",
+      "Address Status": "NEEDS ADDRESS",
+      "District Status": "NEEDS DISTRICT"
+    }
+  },
+  {
+    "id": "recV76lmtGNrdFtHz",
+    "createdTime": "2025-11-08T16:32:49.000Z",
+    "fields": {
+      "Organization": "information by emailing cmaienza@santafecountynm.gov or calling",
+      "Category": "RESOURCE DIRECTORY",
+      "Phone": "(505) 992-9842",
+      "Address Status": "NEEDS ADDRESS",
+      "District Status": "NEEDS DISTRICT"
+    }
+  },
+  {
+    "id": "recVInCch6fSxXYKC",
+    "createdTime": "2025-11-08T16:32:49.000Z",
+    "fields": {
+      "Organization": "Youth Drop -In Center/ Street Outreach (21 and under)",
+      "Category": "FOOD ASSISTANCE",
+      "Phone": "988",
+      "Address Status": "NEEDS ADDRESS",
+      "District Status": "NEEDS DISTRICT"
+    }
+  },
+  {
+    "id": "recVwtezb702HNZh1",
+    "createdTime": "2025-11-08T16:32:49.000Z",
+    "fields": {
+      "Organization": "Santa Fe County Housing Authority",
+      "Site Name": "Administrative Office",
+      "Category": "HOUSING and SHELTER",
+      "Address": "52 Camino de Jacobo, Santa Fe, NM 87507",
+      "Phone": "505-992-3060",
+      "Council District": 4,
+      "Notes": "County housing programs and vouchers",
+      "Address Status": "OK",
+      "District Status": "NEEDS DISTRICT"
+    }
+  },
+  {
+    "id": "recVzcOC3vFy4e7w2",
+    "createdTime": "2025-11-08T16:32:49.000Z",
+    "fields": {
+      "Organization": "St. John’s United Methodist Church",
+      "Site Name": "Bag ‘N Hand Pantry",
+      "Category": "FOOD ASSISTANCE",
+      "Address": "1200 Old Pecos Trail, Santa Fe, NM 87505",
+      "Phone": "505-982-5397",
+      "Website URL": "https://santafefumc.org",
+      "Council District": 4,
+      "Inside City (Y/N)": true,
+      "Address Status": "OK",
+      "District Status": "OK",
+      "Council District (updated)": 4
+    }
+  },
+  {
+    "id": "recWDfG2KAbAJeHW6",
+    "createdTime": "2025-11-08T16:32:49.000Z",
+    "fields": {
+      "Organization": "The Food Depot",
+      "Site Name": "Food 4 Kids Elementary Program",
+      "Category": "FOOD ASSISTANCE",
+      "Address": "1222 A Siler Rd, Santa Fe, NM 87507",
+      "Phone": "505-531-4949",
+      "Website URL": "https://www.thefooddepot.org",
+      "Council District": 3,
+      "Inside City (Y/N)": true,
+      "Notes": "Multiple school sites",
+      "Address Status": "OK",
+      "District Status": "OK",
+      "Council District (updated)": 3
+    }
+  },
+  {
+    "id": "recZJ3DtLrplX1Www",
+    "createdTime": "2025-11-08T16:32:49.000Z",
+    "fields": {
+      "Organization": "The Life Link",
+      "Site Name": "Main Office / Housing Support",
+      "Category": "HOUSING and SHELTER",
+      "Address": "2325 Cerrillos Rd, Santa Fe, NM 87505",
+      "Phone": "505-438-0010",
+      "Council District": 1,
+      "Notes": "La Luz PSH and related programs (program addresses vary)",
+      "Address Status": "OK",
+      "District Status": "NEEDS DISTRICT"
+    }
+  },
+  {
+    "id": "recZRVa8lZU7N3Zpa",
+    "createdTime": "2025-11-08T16:32:49.000Z",
+    "fields": {
+      "Organization": "City of Santa Fe Library - Southside",
+      "Site Name": "Southside Branch",
+      "Category": "MUNICIPAL FACILITY",
+      "Phone": "505-955-2820",
+      "Website URL": "https://santafelibrary.org",
+      "Notes": "City facility; use City GIS for address",
+      "Address Status": "NEEDS ADDRESS",
+      "District Status": "NEEDS DISTRICT"
+    }
+  },
+  {
+    "id": "recZxikS3wiGOw8Ys",
+    "createdTime": "2025-11-08T16:32:49.000Z",
+    "fields": {
+      "Organization": "Youth Shelters & Family Services",
+      "Site Name": "Administrative / Program Office",
+      "Category": "HOUSING and SHELTER",
+      "Address": "5686-B Agua Fria St, Santa Fe, NM 87507",
+      "Phone": "505-983-0586",
+      "Council District": 3,
+      "Notes": "Mailing/Admin; multiple youth housing programs",
+      "Address Status": "OK",
+      "District Status": "NEEDS DISTRICT"
+    }
+  },
+  {
+    "id": "recaNXEROYLKBuacT",
+    "createdTime": "2025-11-08T16:32:49.000Z",
+    "fields": {
+      "Organization": "Sojourners Advocacy Café (at The Life Link)",
+      "Site Name": "Resource Center",
+      "Category": "HOUSING and SHELTER",
+      "Address": "1424 Fourth St, Santa Fe, NM 87505",
+      "Phone": "505-983-4182",
+      "Council District": 2,
+      "Notes": "Partner site connected to The Life Link",
+      "Address Status": "OK",
+      "District Status": "NEEDS DISTRICT"
+    }
+  },
+  {
+    "id": "recc5NriL0exVhvmV",
+    "createdTime": "2025-11-08T16:32:49.000Z",
+    "fields": {
+      "Organization": "City of Santa Fe Library - Main",
+      "Site Name": "Main Library",
+      "Category": "MUNICIPAL FACILITY",
+      "Phone": "505-955-6781",
+      "Website URL": "https://santafelibrary.org",
+      "Notes": "City facility; use City GIS for address",
+      "Address Status": "NEEDS ADDRESS",
+      "District Status": "NEEDS DISTRICT"
+    }
+  },
+  {
+    "id": "recd0yscI5bpwqRVe",
+    "createdTime": "2025-11-08T16:32:49.000Z",
+    "fields": {
+      "Organization": "City of Santa Fe Senior Services",
+      "Site Name": "Home Delivered Meals",
+      "Category": "FOOD ASSISTANCE",
+      "Address": "801 W San Mateo Rd, Santa Fe, NM 87505",
+      "Phone": "505-955-4748",
+      "Website URL": "https://www.santafenm.gov",
+      "Council District": 3,
+      "Inside City (Y/N)": true,
+      "Address Status": "OK",
+      "District Status": "OK",
+      "Council District (updated)": 3
+    }
+  },
+  {
+    "id": "recd3b7SD1EIxRiSJ",
+    "createdTime": "2025-11-08T16:32:49.000Z",
+    "fields": {
+      "Organization": "The Food Depot",
+      "Site Name": "Main Warehouse/Hub",
+      "Category": "FOOD ASSISTANCE",
+      "Address": "1222 A Siler Rd, Santa Fe, NM 87507",
+      "Phone": "505-471-1633",
+      "Website URL": "https://www.thefooddepot.org",
+      "Council District": 3,
+      "Inside City (Y/N)": true,
+      "Address Status": "OK",
+      "District Status": "OK",
+      "Council District (updated)": 3
+    }
+  },
+  {
+    "id": "receocZl34FJExAtT",
+    "createdTime": "2025-11-08T16:32:49.000Z",
+    "fields": {
+      "Organization": "Women’s Health",
+      "Category": "PRIMARY CARE",
+      "Phone": "988",
+      "Address Status": "NEEDS ADDRESS",
+      "District Status": "NEEDS DISTRICT"
+    }
+  },
+  {
+    "id": "receyB1UhAjmtMo0W",
+    "createdTime": "2025-11-08T16:32:49.000Z",
+    "fields": {
+      "Organization": "Sexual Violence Education & Prevention Resources for Survivors of Violent Crimes",
+      "Category": "BEHAVIORAL HEALTH",
+      "Phone": "988",
+      "Address Status": "NEEDS ADDRESS",
+      "District Status": "NEEDS DISTRICT"
+    }
+  },
+  {
+    "id": "recfPOtX908ovVKsU",
+    "createdTime": "2025-11-08T16:32:49.000Z",
+    "fields": {
+      "Organization": "Mary Esther Gonzales Senior Center",
+      "Site Name": "Senior Center",
+      "Category": "MUNICIPAL FACILITY",
+      "Phone": "505-955-4711",
+      "Website URL": "https://www.santafenm.gov",
+      "Notes": "City facility; verify address via GIS",
+      "Address Status": "NEEDS ADDRESS",
+      "District Status": "NEEDS DISTRICT"
+    }
+  },
+  {
+    "id": "recflwGB60yEnQkBx",
+    "createdTime": "2025-11-08T16:32:49.000Z",
+    "fields": {
+      "Organization": "The Sky Center (NM Suicide Intervention Project)",
+      "Site Name": "Family Counseling & HUGS",
+      "Category": "BEHAVIORAL HEALTH",
+      "Address": "430 W San Mateo Rd, Santa Fe, NM 87505",
+      "Phone": "505-473-6191",
+      "Website URL": "https://skycenter.nmsip.org",
+      "Council District": 3,
+      "Inside City (Y/N)": true,
+      "Notes": "HUGS program at CSV partnership",
+      "Address Status": "OK",
+      "District Status": "OK",
+      "Council District (updated)": 3
+    }
+  },
+  {
+    "id": "recgYCa0w1MGELKhq",
+    "createdTime": "2025-11-08T16:32:49.000Z",
+    "fields": {
+      "Organization": "Esperanza Shelter",
+      "Site Name": "Support Center (non-residential)",
+      "Category": "HOUSING and SHELTER",
+      "Address": "3130 Rufina St, Santa Fe, NM 87507",
+      "Phone": "505-474-5536",
+      "Council District": 4,
+      "Notes": "Emergency shelter address confidential for survivor safety",
+      "Address Status": "OK",
+      "District Status": "NEEDS DISTRICT"
+    }
+  },
+  {
+    "id": "rechnJLT8OSYH3aVP",
+    "createdTime": "2025-11-08T16:32:49.000Z",
+    "fields": {
+      "Organization": "Salvador Perez Recreation Center",
+      "Site Name": "Recreation Center",
+      "Category": "MUNICIPAL FACILITY",
+      "Phone": "505-955-4573",
+      "Website URL": "https://www.santafenm.gov",
+      "Notes": "City facility; verify address via GIS",
+      "Address Status": "NEEDS ADDRESS",
+      "District Status": "NEEDS DISTRICT"
+    }
+  },
+  {
+    "id": "reci0IjrDwE7EA9rA",
+    "createdTime": "2025-11-08T16:32:49.000Z",
+    "fields": {
+      "Organization": "Resources for Survivors of Violent Crimes",
+      "Category": "CRISIS INTERVENTION",
+      "Phone": "988",
+      "Address Status": "NEEDS ADDRESS",
+      "District Status": "NEEDS DISTRICT"
+    }
+  },
+  {
+    "id": "recjQTDkO2MO9CbKd",
+    "createdTime": "2025-11-08T16:32:49.000Z",
+    "fields": {
+      "Organization": "Santa Fe Habitat for Humanity",
+      "Site Name": "Main Office / ReStore",
+      "Category": "HOUSING and SHELTER",
+      "Address": "2520 Camino Entrada, Ste A, Santa Fe, NM 87507",
+      "Phone": "505-986-5880",
+      "Council District": 4,
+      "Notes": "ReStore: (505) 473-1114",
+      "Address Status": "OK",
+      "District Status": "NEEDS DISTRICT"
+    }
+  },
+  {
+    "id": "reckRd2hp9XUG5M3Y",
+    "createdTime": "2025-11-08T16:32:49.000Z",
+    "fields": {
+      "Organization": "St. Elizabeth’s Shelter",
+      "Site Name": "Casa Cerrillos (PSH)",
+      "Category": "HOUSING and SHELTER",
+      "Phone": "505-471-3456",
+      "Notes": "Permanent Supportive Housing – site address not listed on website",
+      "Address Status": "NEEDS ADDRESS",
+      "District Status": "NEEDS DISTRICT"
+    }
+  },
+  {
+    "id": "recksQZhwuzVN5Pwy",
+    "createdTime": "2025-11-08T16:32:49.000Z",
+    "fields": {
+      "Organization": "Santa Fe Crisis Triage Center (La Sala) - New Mexico Solutions",
+      "Site Name": "Crisis Triage (Adults)",
+      "Category": "BEHAVIORAL HEALTH",
+      "Address": "2960 Rodeo Park Dr E, Santa Fe, NM 87505",
+      "Phone": "505-819-3419",
+      "Website URL": "https://www.nm-solutions.com",
+      "Council District": 3,
+      "Inside City (Y/N)": true,
+      "Address Status": "OK",
+      "District Status": "OK",
+      "Council District (updated)": 3
+    }
+  },
+  {
+    "id": "reckvRZH0vP1AH8zZ",
+    "createdTime": "2025-11-08T16:32:49.000Z",
+    "fields": {
+      "Organization": "MoGro Mobile Grocery",
+      "Site Name": "Weekly Food Box Program",
+      "Category": "FOOD ASSISTANCE",
+      "Address": "3205 Calle Marie, Santa Fe, NM 87507",
+      "Phone": "505-216-8611",
+      "Website URL": "https://www.mogro.net",
+      "Council District": 3,
+      "Inside City (Y/N)": true,
+      "Address Status": "OK",
+      "District Status": "OK",
+      "Council District (updated)": 3
+    }
+  },
+  {
+    "id": "recmKjDZvE8I2DeoO",
+    "createdTime": "2025-11-08T16:32:49.000Z",
+    "fields": {
+      "Organization": "Gerard’s House for Grieving",
+      "Site Name": "Grief Counseling & Groups",
+      "Category": "BEHAVIORAL HEALTH",
+      "Address": "3204 Mercantile Ct, Santa Fe, NM 87507",
+      "Phone": "505-424-1800",
+      "Website URL": "https://www.gerardshouse.org",
+      "Council District": 3,
+      "Inside City (Y/N)": true,
+      "Address Status": "OK",
+      "District Status": "OK",
+      "Council District (updated)": 3
+    }
+  },
+  {
+    "id": "recmRy2VX01O0MjKB",
+    "createdTime": "2025-11-08T16:32:49.000Z",
+    "fields": {
+      "Organization": "organization’s informatio n, please email",
+      "Category": "52 SANTA FE COUNTY COMMUNITY SERVICES DEPARTMENT",
+      "Phone": "(505) 992-9842",
+      "Address Status": "NEEDS ADDRESS",
+      "District Status": "NEEDS DISTRICT"
+    }
+  },
+  {
+    "id": "recmcc00pElc4ooOs",
+    "createdTime": "2025-11-08T16:32:49.000Z",
+    "fields": {
+      "Organization": "Kitchen Angels",
+      "Site Name": "Meal Delivery for Homebound",
+      "Category": "FOOD ASSISTANCE",
+      "Address": "1222 Siler Rd, Santa Fe, NM 87507",
+      "Phone": "505-471-7780",
+      "Website URL": "https://www.kitchenangels.org",
+      "Council District": 3,
+      "Inside City (Y/N)": true,
+      "Address Status": "OK",
+      "District Status": "OK",
+      "Council District (updated)": 3
+    }
+  },
+  {
+    "id": "recnUqyplRbuHayz6",
+    "createdTime": "2025-11-08T16:32:49.000Z",
+    "fields": {
+      "Organization": "CASA First",
+      "Site Name": "Youth Ambassadors & Advocacy",
+      "Category": "YOUTH DEVELOPMENT",
+      "Address": "2820 Cerrillos Rd #21, Santa Fe, NM 87507",
+      "Phone": "505-820-1500",
+      "Website URL": "https://www.casafirst.org",
+      "Council District": 3,
+      "Inside City (Y/N)": true,
+      "Address Status": "OK",
+      "District Status": "OK",
+      "Council District (updated)": 3
+    }
+  },
+  {
+    "id": "recpXgFIZ0Du4t4Ph",
+    "createdTime": "2025-11-08T16:32:49.000Z",
+    "fields": {
+      "Organization": "Consuelo’s Place (Midtown Emergency Shelter)",
+      "Site Name": "Emergency Shelter",
+      "Category": "HOUSING and SHELTER",
+      "Address": "1600 Saint Michael’s Dr, Building 7, Santa Fe, NM 87505",
+      "Phone": "505-372-8206",
+      "Council District": 4,
+      "Notes": "Midtown Campus building 7",
+      "Address Status": "OK",
+      "District Status": "LIKELY VIA MAP (Midtown/St Michaels corridor in D4)",
+      "Council District (updated)": 4,
+      "People 2": "Joyce Sanders"
+    }
+  },
+  {
+    "id": "recqGHNj57zRHpQcp",
+    "createdTime": "2025-11-08T16:32:49.000Z",
+    "fields": {
+      "Organization": "St. John the Baptist Catholic Church",
+      "Site Name": "Food Pantry",
+      "Category": "FOOD ASSISTANCE",
+      "Address": "1301 Osage Ave, Santa Fe, NM 87505",
+      "Phone": "505-983-5034",
+      "Website URL": "https://www.sjbfaitrh.org",
+      "Council District": 3,
+      "Inside City (Y/N)": true,
+      "Address Status": "OK",
+      "District Status": "OK",
+      "Council District (updated)": 3
+    }
+  },
+  {
+    "id": "recqURpcA4fSdVX3A",
+    "createdTime": "2025-11-08T16:32:49.000Z",
+    "fields": {
+      "Organization": "The Mountain Center",
+      "Site Name": "Counseling & Harm Reduction",
+      "Category": "BEHAVIORAL HEALTH",
+      "Address": "1524 Bishops Lodge Rd, Santa Fe, NM 87506",
+      "Phone": "505-983-6158",
+      "Website URL": "https://www.themountaincenter.org",
+      "Notes": "Santa Fe/Tesuque/Española",
+      "Address Status": "OK",
+      "District Status": "OK"
+    }
+  },
+  {
+    "id": "recrdo1zkJ92rgEnO",
+    "createdTime": "2025-11-08T16:32:49.000Z",
+    "fields": {
+      "Organization": "Santa Fe Suites",
+      "Site Name": "Transitional Housing",
+      "Category": "HOUSING and SHELTER",
+      "Address": "3007 S Saint Francis Dr, Santa Fe, NM 87505",
+      "Phone": "505-982-1154",
+      "Council District": 4,
+      "Notes": "Non-congregate units",
+      "Address Status": "OK",
+      "District Status": "LIKELY VIA MAP (S St Francis corridor in D4)",
+      "Council District (updated)": 4
+    }
+  },
+  {
+    "id": "recsODTjux1gn9sFc",
+    "createdTime": "2025-11-08T16:32:49.000Z",
+    "fields": {
+      "Organization": "The Salvation Army",
+      "Site Name": "Food Pantry & Meals",
+      "Category": "FOOD ASSISTANCE",
+      "Address": "525 W Alameda St, Santa Fe, NM 87501",
+      "Phone": "505-988-8054",
+      "Website URL": "https://santafe.salvationarmy.org",
+      "Council District": 1,
+      "Inside City (Y/N)": true,
+      "Address Status": "OK",
+      "District Status": "OK",
+      "Council District (updated)": 1
+    }
+  },
+  {
+    "id": "recsY6VIt7WWCHEVJ",
+    "createdTime": "2025-11-08T16:32:49.000Z",
+    "fields": {
+      "Organization": "Medical Equipment Loan",
+      "Category": "AARP",
+      "Phone": "988",
+      "Address Status": "NEEDS ADDRESS",
+      "District Status": "NEEDS DISTRICT"
+    }
+  },
+  {
+    "id": "rectsXfOAIS0NJB8r",
+    "createdTime": "2025-11-08T16:32:49.000Z",
+    "fields": {
+      "Organization": "City of Santa Fe Library - La Farge",
+      "Site Name": "La Farge Branch",
+      "Category": "MUNICIPAL FACILITY",
+      "Phone": "505-955-4862",
+      "Website URL": "https://santafelibrary.org",
+      "Notes": "City facility; use City GIS for address",
+      "Address Status": "NEEDS ADDRESS",
+      "District Status": "NEEDS DISTRICT"
+    }
+  },
+  {
+    "id": "rectw9Ccv1roFE6eJ",
+    "createdTime": "2025-11-08T16:32:49.000Z",
+    "fields": {
+      "Organization": "St. Elizabeth’s Shelter",
+      "Site Name": "Sonrisa Family Program (PSH)",
+      "Category": "HOUSING and SHELTER",
+      "Phone": "505-424-6973",
+      "Notes": "Permanent Supportive Housing – location varies/undisclosed",
+      "Address Status": "NEEDS ADDRESS",
+      "District Status": "NEEDS DISTRICT"
+    }
+  },
+  {
+    "id": "recv7euVrTVUMsC9S",
+    "createdTime": "2025-11-08T16:32:49.000Z",
+    "fields": {
+      "Organization": "YouthWorks",
+      "Site Name": "GED, Job Training & Case Mgmt",
+      "Category": "YOUTH DEVELOPMENT",
+      "Address": "1504 Cerrillos Rd, Santa Fe, NM 87505",
+      "Phone": "505-989-1855",
+      "Website URL": "https://santafeyouthworks.org",
+      "Council District": 3,
+      "Inside City (Y/N)": true,
+      "Address Status": "OK",
+      "District Status": "OK",
+      "Council District (updated)": 3
+    }
+  },
+  {
+    "id": "recwK5SYeUkGESil6",
+    "createdTime": "2025-11-08T16:32:49.000Z",
+    "fields": {
+      "Organization": "Genoveva Chavez Community Center (GCCC)",
+      "Site Name": "Community Center",
+      "Category": "MUNICIPAL FACILITY",
+      "Phone": "505-955-4000",
+      "Website URL": "https://www.santafenm.gov",
+      "Notes": "City facility; verify address via GIS",
+      "Address Status": "NEEDS ADDRESS",
+      "District Status": "NEEDS DISTRICT"
+    }
+  },
+  {
+    "id": "recwNAphmNpH7RnKn",
+    "createdTime": "2025-11-08T16:32:49.000Z",
+    "fields": {
+      "Organization": "CHRISTUS St. Vincent Behavioral Health",
+      "Site Name": "Inpatient/Outpatient",
+      "Category": "BEHAVIORAL HEALTH",
+      "Address": "455 St Michaels Dr, Santa Fe, NM 87505",
+      "Phone": "505-913-5470",
+      "Website URL": "https://www.christushealth.org",
+      "Council District": 4,
+      "Inside City (Y/N)": true,
+      "Address Status": "OK",
+      "District Status": "OK",
+      "Council District (updated)": 4
+    }
+  },
+  {
+    "id": "recwcSwlm9y8QEzcp",
+    "createdTime": "2025-11-08T16:32:49.000Z",
+    "fields": {
+      "Organization": "Youth Shelters & Family Services",
+      "Site Name": "Drop-In Center / Street Outreach",
+      "Category": "HOUSING and SHELTER",
+      "Address": "402 S Saint Francis Dr, Santa Fe, NM 87501",
+      "Phone": "505-983-0586",
+      "Council District": 1,
+      "Notes": "Youth (21 and under)",
+      "Address Status": "OK",
+      "District Status": "NEEDS DISTRICT"
+    }
+  },
+  {
+    "id": "recyxSHnWl4O9AawC",
+    "createdTime": "2025-11-08T16:32:49.000Z",
+    "fields": {
+      "Organization": "Pasatiempo Senior Center",
+      "Site Name": "Senior Center",
+      "Category": "MUNICIPAL FACILITY",
+      "Phone": "505-955-4711",
+      "Website URL": "https://www.santafenm.gov",
+      "Notes": "City facility; verify address via GIS",
+      "Address Status": "NEEDS ADDRESS",
+      "District Status": "NEEDS DISTRICT"
+    }
+  },
+  {
+    "id": "reczrxTyvrKTcKA2R",
+    "createdTime": "2025-11-08T16:32:49.000Z",
+    "fields": {
+      "Organization": "Medicaid Expansion",
+      "Category": "AARP",
+      "Phone": "1(800) 283-4465",
+      "Address Status": "NEEDS ADDRESS",
+      "District Status": "NEEDS DISTRICT"
+    }
+  }
+]

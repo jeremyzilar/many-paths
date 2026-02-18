@@ -1,0 +1,1814 @@
+[
+  {
+    "id": "rec0PMPO0tJmGcIu7",
+    "createdTime": "2025-12-23T22:14:08.000Z",
+    "fields": {
+      "Item Name": "Razors",
+      "Category": "Hygiene",
+      "Requesting Organization": [
+        "recKrlSdBu8hD1K8B"
+      ],
+      "Quantity Needed": 100,
+      "Quantity Claimed": 25,
+      "Quantity Delivered": 20,
+      "Quantity Remaining": 80,
+      "Unit Type": "Individual items",
+      "Priority": "Low",
+      "Needed By": "2025-02-15",
+      "Recurrence": "Monthly",
+      "Season": "Year-round",
+      "Status": "Partially Fulfilled",
+      "Contact Person": "Maria Garcia",
+      "Contact Email": "maria@steshelter.org",
+      "Notes": "Disposable ok",
+      "Last Updated": "2025-12-23T22:16:30.000Z",
+      "Created": "2025-12-23T22:14:08.000Z",
+      "Drop-off Location": [
+        "804 Alarid Street, Santa Fe, NM 87505"
+      ],
+      "Drop-off Hours": [
+        "Daily 7am-7pm"
+      ],
+      "Contact Phone": [
+        "505-982-6611"
+      ]
+    }
+  },
+  {
+    "id": "rec1SZl9Aw0V7ZOqx",
+    "createdTime": "2025-12-23T22:14:08.000Z",
+    "fields": {
+      "Item Name": "Cat food",
+      "Category": "Other",
+      "Requesting Organization": [
+        "recKrlSdBu8hD1K8B"
+      ],
+      "Quantity Needed": 15,
+      "Quantity Claimed": 3,
+      "Quantity Delivered": 2,
+      "Quantity Remaining": 13,
+      "Unit Type": "Bags",
+      "Priority": "Low",
+      "Needed By": "2025-02-01",
+      "Recurrence": "Monthly",
+      "Season": "Year-round",
+      "Status": "Partially Fulfilled",
+      "Contact Person": "Maria Garcia",
+      "Contact Email": "maria@steshelter.org",
+      "Notes": "Dry food preferred",
+      "Last Updated": "2025-12-23T22:16:30.000Z",
+      "Created": "2025-12-23T22:14:08.000Z",
+      "Drop-off Location": [
+        "804 Alarid Street, Santa Fe, NM 87505"
+      ],
+      "Drop-off Hours": [
+        "Daily 7am-7pm"
+      ],
+      "Contact Phone": [
+        "505-982-6611"
+      ]
+    }
+  },
+  {
+    "id": "rec2gD7Ec1ysGbTGY",
+    "createdTime": "2025-12-23T22:14:08.000Z",
+    "fields": {
+      "Item Name": "Esperanza emergency supplies",
+      "Category": "Other",
+      "Requesting Organization": [
+        "recAjEAlCIqhQsCku"
+      ],
+      "Quantity Needed": 25,
+      "Quantity Claimed": 5,
+      "Quantity Delivered": 3,
+      "Quantity Remaining": 22,
+      "Unit Type": "Individual items",
+      "Priority": "High",
+      "Needed By": "2025-01-20",
+      "Recurrence": "Quarterly",
+      "Season": "Year-round",
+      "Status": "Partially Fulfilled",
+      "Contact Person": "Confidential",
+      "Contact Email": "hotline@esperanzashelter.org",
+      "Notes": "Emergency kits for DV survivors",
+      "Last Updated": "2025-12-23T22:15:54.000Z",
+      "Created": "2025-12-23T22:14:08.000Z",
+      "Drop-off Location": [
+        "3130 Rufina St, Santa Fe, NM 87507"
+      ],
+      "Drop-off Hours": [
+        "Mon-Fri 8am-4pm"
+      ]
+    }
+  },
+  {
+    "id": "rec3HVZwj0wsdMzvx",
+    "createdTime": "2025-12-23T22:14:08.000Z",
+    "fields": {
+      "Item Name": "Gloves (winter)",
+      "Category": "Clothing",
+      "Requesting Organization": [
+        "recpD8WGAmSWmMVGA"
+      ],
+      "Quantity Needed": 60,
+      "Quantity Claimed": 20,
+      "Quantity Delivered": 15,
+      "Quantity Remaining": 45,
+      "Unit Type": "Pairs",
+      "Priority": "High",
+      "Needed By": "2025-01-15",
+      "Recurrence": "Seasonal",
+      "Season": "Winter",
+      "Status": "Partially Fulfilled",
+      "Contact Person": "Pete Johnson",
+      "Contact Email": "pete@urban-alchemy.us",
+      "Notes": "Waterproof preferred",
+      "Last Updated": "2025-12-23T22:14:36.000Z",
+      "Created": "2025-12-23T22:14:08.000Z",
+      "Drop-off Location": [
+        "2801 Cerrillos Road, Santa Fe, NM 87505"
+      ],
+      "Drop-off Hours": [
+        "Daily 7am-7pm"
+      ],
+      "Contact Phone": [
+        "(505) 605-6540"
+      ]
+    }
+  },
+  {
+    "id": "rec3LeeD3Pmhbfp9J",
+    "createdTime": "2025-12-23T22:14:08.000Z",
+    "fields": {
+      "Item Name": "Rain ponchos",
+      "Category": "Clothing",
+      "Requesting Organization": [
+        "recKrlSdBu8hD1K8B"
+      ],
+      "Quantity Needed": 30,
+      "Quantity Claimed": 5,
+      "Quantity Delivered": 5,
+      "Quantity Remaining": 25,
+      "Unit Type": "Individual items",
+      "Priority": "Normal",
+      "Needed By": "2025-03-01",
+      "Recurrence": "Seasonal",
+      "Season": "Spring/Fall",
+      "Status": "Partially Fulfilled",
+      "Contact Person": "Maria Garcia",
+      "Contact Email": "maria@steshelter.org",
+      "Notes": "Reusable preferred over disposable",
+      "Last Updated": "2025-12-23T22:16:30.000Z",
+      "Created": "2025-12-23T22:14:08.000Z",
+      "Drop-off Location": [
+        "804 Alarid Street, Santa Fe, NM 87505"
+      ],
+      "Drop-off Hours": [
+        "Daily 7am-7pm"
+      ],
+      "Contact Phone": [
+        "505-982-6611"
+      ]
+    }
+  },
+  {
+    "id": "rec5xWaKJBXRPNZow",
+    "createdTime": "2025-12-23T22:14:08.000Z",
+    "fields": {
+      "Item Name": "Deodorant",
+      "Category": "Hygiene",
+      "Requesting Organization": [
+        "recFy1oAT87eRU6KX"
+      ],
+      "Quantity Needed": 80,
+      "Quantity Claimed": 20,
+      "Quantity Delivered": 15,
+      "Quantity Remaining": 65,
+      "Unit Type": "Individual items",
+      "Priority": "Normal",
+      "Needed By": "2025-02-01",
+      "Recurrence": "Monthly",
+      "Season": "Year-round",
+      "Status": "Partially Fulfilled",
+      "Contact Person": "Linda Chen",
+      "Contact Email": "linda@thelifelink.org",
+      "Notes": "Unscented preferred",
+      "Last Updated": "2025-12-23T22:15:01.000Z",
+      "Created": "2025-12-23T22:14:08.000Z",
+      "Drop-off Location": [
+        "2325 Cerrillos Rd.\nSanta Fe, NM 87505"
+      ],
+      "Drop-off Hours": [
+        "Mon-Fri 8am-4pm"
+      ],
+      "Contact Phone": [
+        "(505) 438-0010"
+      ]
+    }
+  },
+  {
+    "id": "rec7ArnqK6QAQk2Wg",
+    "createdTime": "2025-12-23T22:14:08.000Z",
+    "fields": {
+      "Item Name": "Body wash",
+      "Category": "Hygiene",
+      "Requesting Organization": [
+        "recpD8WGAmSWmMVGA"
+      ],
+      "Quantity Needed": 60,
+      "Quantity Claimed": 15,
+      "Quantity Delivered": 10,
+      "Quantity Remaining": 50,
+      "Unit Type": "Individual items",
+      "Priority": "Normal",
+      "Needed By": "2025-02-01",
+      "Recurrence": "Monthly",
+      "Season": "Year-round",
+      "Status": "Partially Fulfilled",
+      "Contact Person": "Pete Johnson",
+      "Contact Email": "pete@urban-alchemy.us",
+      "Last Updated": "2025-12-23T22:14:36.000Z",
+      "Created": "2025-12-23T22:14:08.000Z",
+      "Drop-off Location": [
+        "2801 Cerrillos Road, Santa Fe, NM 87505"
+      ],
+      "Drop-off Hours": [
+        "Daily 7am-7pm"
+      ],
+      "Contact Phone": [
+        "(505) 605-6540"
+      ]
+    }
+  },
+  {
+    "id": "rec87xET2JhYbH2YJ",
+    "createdTime": "2025-12-23T22:14:08.000Z",
+    "fields": {
+      "Item Name": "Sports bras",
+      "Category": "Clothing",
+      "Requesting Organization": [
+        "rec91J0d2eJjQLN3W"
+      ],
+      "Quantity Needed": 30,
+      "Quantity Claimed": 5,
+      "Quantity Delivered": 3,
+      "Quantity Remaining": 27,
+      "Unit Type": "Individual items",
+      "Priority": "Normal",
+      "Needed By": "2025-02-01",
+      "Recurrence": "Quarterly",
+      "Season": "Year-round",
+      "Status": "Partially Fulfilled",
+      "Contact Person": "Sarah Martinez",
+      "Contact Email": "sarah@casafamilia.org",
+      "Notes": "All sizes needed",
+      "Last Updated": "2025-12-23T22:15:24.000Z",
+      "Created": "2025-12-23T22:14:08.000Z",
+      "Drop-off Location": [
+        "1604 Barry Ave\nSanta Fe, NM 87505"
+      ],
+      "Drop-off Hours": [
+        "Daily 7am-7pm"
+      ],
+      "Contact Phone": [
+        "505-983-2042"
+      ]
+    }
+  },
+  {
+    "id": "recASL3piKjMIWeBI",
+    "createdTime": "2025-12-23T22:14:08.000Z",
+    "fields": {
+      "Item Name": "Hats (winter beanies)",
+      "Category": "Clothing",
+      "Requesting Organization": [
+        "recFy1oAT87eRU6KX"
+      ],
+      "Quantity Needed": 50,
+      "Quantity Claimed": 15,
+      "Quantity Delivered": 12,
+      "Quantity Remaining": 38,
+      "Unit Type": "Individual items",
+      "Priority": "High",
+      "Needed By": "2025-01-15",
+      "Recurrence": "Seasonal",
+      "Season": "Winter",
+      "Status": "Partially Fulfilled",
+      "Contact Person": "Linda Chen",
+      "Contact Email": "linda@thelifelink.org",
+      "Notes": "Fleece or wool",
+      "Last Updated": "2025-12-23T22:15:01.000Z",
+      "Created": "2025-12-23T22:14:08.000Z",
+      "Drop-off Location": [
+        "2325 Cerrillos Rd.\nSanta Fe, NM 87505"
+      ],
+      "Drop-off Hours": [
+        "Mon-Fri 8am-4pm"
+      ],
+      "Contact Phone": [
+        "(505) 438-0010"
+      ]
+    }
+  },
+  {
+    "id": "recCK5RrMseKq0kLb",
+    "createdTime": "2025-12-23T22:14:08.000Z",
+    "fields": {
+      "Item Name": "Hand sanitizer",
+      "Category": "Hygiene",
+      "Requesting Organization": [
+        "recpD8WGAmSWmMVGA"
+      ],
+      "Quantity Needed": 50,
+      "Quantity Claimed": 15,
+      "Quantity Delivered": 10,
+      "Quantity Remaining": 40,
+      "Unit Type": "Individual items",
+      "Priority": "Normal",
+      "Needed By": "2025-02-01",
+      "Recurrence": "Monthly",
+      "Season": "Year-round",
+      "Status": "Partially Fulfilled",
+      "Contact Person": "Pete Johnson",
+      "Contact Email": "pete@urban-alchemy.us",
+      "Notes": "Travel size",
+      "Last Updated": "2025-12-23T22:14:36.000Z",
+      "Created": "2025-12-23T22:14:08.000Z",
+      "Drop-off Location": [
+        "2801 Cerrillos Road, Santa Fe, NM 87505"
+      ],
+      "Drop-off Hours": [
+        "Daily 7am-7pm"
+      ],
+      "Contact Phone": [
+        "(505) 605-6540"
+      ]
+    }
+  },
+  {
+    "id": "recDbR1gatisQBAwO",
+    "createdTime": "2025-12-23T22:14:08.000Z",
+    "fields": {
+      "Item Name": "Winter coats (adult)",
+      "Category": "Clothing",
+      "Requesting Organization": [
+        "recpD8WGAmSWmMVGA"
+      ],
+      "Quantity Needed": 35,
+      "Quantity Claimed": 10,
+      "Quantity Delivered": 8,
+      "Quantity Remaining": 27,
+      "Unit Type": "Individual items",
+      "Priority": "Urgent",
+      "Needed By": "2025-01-10",
+      "Recurrence": "Seasonal",
+      "Season": "Winter",
+      "Status": "Partially Fulfilled",
+      "Contact Person": "James Wilson",
+      "Contact Email": "james@urban-alchemy.us",
+      "Notes": "All sizes needed, XL especially",
+      "Last Updated": "2025-12-23T22:14:27.000Z",
+      "Created": "2025-12-23T22:14:08.000Z",
+      "Drop-off Location": [
+        "2801 Cerrillos Road, Santa Fe, NM 87505"
+      ],
+      "Drop-off Hours": [
+        "Daily 7am-7pm"
+      ],
+      "Contact Phone": [
+        "(505) 605-6540"
+      ]
+    }
+  },
+  {
+    "id": "recDoPvRCLCc4OBVh",
+    "createdTime": "2025-12-23T22:14:08.000Z",
+    "fields": {
+      "Item Name": "Interfaith welcome kits",
+      "Category": "Other",
+      "Requesting Organization": [
+        "recFenTcUcimkyVOR"
+      ],
+      "Quantity Needed": 30,
+      "Quantity Claimed": 10,
+      "Quantity Delivered": 5,
+      "Quantity Remaining": 25,
+      "Unit Type": "Individual items",
+      "Priority": "Normal",
+      "Needed By": "2025-02-01",
+      "Recurrence": "Monthly",
+      "Season": "Year-round",
+      "Status": "Partially Fulfilled",
+      "Contact Person": "Staff",
+      "Contact Email": "info@interfaithsheltersf.org",
+      "Notes": "Basic necessities for new arrivals",
+      "Last Updated": "2025-12-23T22:16:07.000Z",
+      "Created": "2025-12-23T22:14:08.000Z",
+      "Drop-off Location": [
+        "2801 Cerrillos Rd, Santa Fe, NM 87507"
+      ],
+      "Drop-off Hours": [
+        "Mon-Sat 10am-4pm"
+      ]
+    }
+  },
+  {
+    "id": "recFIia7WS8KGUxLU",
+    "createdTime": "2025-12-23T22:14:08.000Z",
+    "fields": {
+      "Item Name": "Blankets",
+      "Category": "Bedding",
+      "Requesting Organization": [
+        "recKrlSdBu8hD1K8B"
+      ],
+      "Quantity Needed": 30,
+      "Quantity Claimed": 10,
+      "Quantity Delivered": 8,
+      "Quantity Remaining": 22,
+      "Unit Type": "Individual items",
+      "Priority": "High",
+      "Needed By": "2025-01-20",
+      "Recurrence": "Seasonal",
+      "Season": "Winter",
+      "Status": "Partially Fulfilled",
+      "Contact Person": "Maria Garcia",
+      "Contact Email": "maria@steshelter.org",
+      "Notes": "Fleece or wool preferred",
+      "Last Updated": "2025-12-23T22:16:30.000Z",
+      "Created": "2025-12-23T22:14:08.000Z",
+      "Drop-off Location": [
+        "804 Alarid Street, Santa Fe, NM 87505"
+      ],
+      "Drop-off Hours": [
+        "Daily 7am-7pm"
+      ],
+      "Contact Phone": [
+        "505-982-6611"
+      ]
+    }
+  },
+  {
+    "id": "recFWNM96YiXK8nmM",
+    "createdTime": "2025-12-23T22:14:08.000Z",
+    "fields": {
+      "Item Name": "Diapers (infant)",
+      "Category": "Hygiene",
+      "Requesting Organization": [
+        "rec91J0d2eJjQLN3W"
+      ],
+      "Quantity Needed": 40,
+      "Quantity Claimed": 10,
+      "Quantity Delivered": 8,
+      "Quantity Remaining": 32,
+      "Unit Type": "Boxes",
+      "Priority": "Urgent",
+      "Needed By": "2025-01-15",
+      "Recurrence": "Monthly",
+      "Season": "Year-round",
+      "Status": "Partially Fulfilled",
+      "Contact Person": "Sarah Martinez",
+      "Contact Email": "sarah@casafamilia.org",
+      "Notes": "Sizes newborn through 3 most needed",
+      "Last Updated": "2025-12-23T22:15:24.000Z",
+      "Created": "2025-12-23T22:14:08.000Z",
+      "Drop-off Location": [
+        "1604 Barry Ave\nSanta Fe, NM 87505"
+      ],
+      "Drop-off Hours": [
+        "Daily 7am-7pm"
+      ],
+      "Contact Phone": [
+        "505-983-2042"
+      ]
+    }
+  },
+  {
+    "id": "recI9eCdPLiGMyxg9",
+    "createdTime": "2025-12-23T22:14:08.000Z",
+    "fields": {
+      "Item Name": "Canned fruit",
+      "Category": "Food (non-perishable)",
+      "Requesting Organization": [
+        "recpD8WGAmSWmMVGA"
+      ],
+      "Quantity Needed": 40,
+      "Quantity Claimed": 10,
+      "Quantity Delivered": 8,
+      "Quantity Remaining": 32,
+      "Unit Type": "Individual items",
+      "Priority": "Normal",
+      "Needed By": "2025-02-01",
+      "Recurrence": "Monthly",
+      "Season": "Year-round",
+      "Status": "Partially Fulfilled",
+      "Contact Person": "James Wilson",
+      "Contact Email": "james@urban-alchemy.us",
+      "Notes": "Pop-top cans preferred",
+      "Last Updated": "2025-12-23T22:14:36.000Z",
+      "Created": "2025-12-23T22:14:08.000Z",
+      "Drop-off Location": [
+        "2801 Cerrillos Road, Santa Fe, NM 87505"
+      ],
+      "Drop-off Hours": [
+        "Daily 7am-7pm"
+      ],
+      "Contact Phone": [
+        "(505) 605-6540"
+      ]
+    }
+  },
+  {
+    "id": "recIAFTO3NLWEvKCq",
+    "createdTime": "2025-12-23T22:14:08.000Z",
+    "fields": {
+      "Item Name": "Protein bars",
+      "Category": "Food (non-perishable)",
+      "Requesting Organization": [
+        "recFy1oAT87eRU6KX"
+      ],
+      "Quantity Needed": 100,
+      "Quantity Claimed": 25,
+      "Quantity Delivered": 20,
+      "Quantity Remaining": 80,
+      "Unit Type": "Individual items",
+      "Priority": "Normal",
+      "Needed By": "2025-02-01",
+      "Recurrence": "Monthly",
+      "Season": "Year-round",
+      "Status": "Partially Fulfilled",
+      "Contact Person": "Linda Chen",
+      "Contact Email": "linda@thelifelink.org",
+      "Notes": "High protein varieties",
+      "Last Updated": "2025-12-23T22:15:01.000Z",
+      "Created": "2025-12-23T22:14:08.000Z",
+      "Drop-off Location": [
+        "2325 Cerrillos Rd.\nSanta Fe, NM 87505"
+      ],
+      "Drop-off Hours": [
+        "Mon-Fri 8am-4pm"
+      ],
+      "Contact Phone": [
+        "(505) 438-0010"
+      ]
+    }
+  },
+  {
+    "id": "recJnM4zW8bDYLBpX",
+    "createdTime": "2025-12-23T22:14:08.000Z",
+    "fields": {
+      "Item Name": "Tents (2-person)",
+      "Category": "Shelter Supplies",
+      "Requesting Organization": [
+        "recpD8WGAmSWmMVGA"
+      ],
+      "Quantity Needed": 10,
+      "Quantity Claimed": 2,
+      "Quantity Delivered": 1,
+      "Quantity Remaining": 9,
+      "Unit Type": "Individual items",
+      "Priority": "Normal",
+      "Needed By": "2025-02-01",
+      "Recurrence": "Quarterly",
+      "Season": "Year-round",
+      "Status": "Partially Fulfilled",
+      "Contact Person": "James Wilson",
+      "Contact Email": "james@urban-alchemy.us",
+      "Notes": "Easy setup preferred",
+      "Last Updated": "2025-12-23T22:14:36.000Z",
+      "Created": "2025-12-23T22:14:08.000Z",
+      "Drop-off Location": [
+        "2801 Cerrillos Road, Santa Fe, NM 87505"
+      ],
+      "Drop-off Hours": [
+        "Daily 7am-7pm"
+      ],
+      "Contact Phone": [
+        "(505) 605-6540"
+      ]
+    }
+  },
+  {
+    "id": "recKAtp8uqRGoEYWo",
+    "createdTime": "2025-12-23T22:14:08.000Z",
+    "fields": {
+      "Item Name": "Bug spray",
+      "Category": "Seasonal",
+      "Requesting Organization": [
+        "recqVEVaTTdv9kBxY"
+      ],
+      "Quantity Needed": 40,
+      "Quantity Claimed": 0,
+      "Quantity Delivered": 0,
+      "Quantity Remaining": 40,
+      "Unit Type": "Individual items",
+      "Priority": "Low",
+      "Needed By": "2025-05-01",
+      "Recurrence": "Seasonal",
+      "Season": "Summer",
+      "Status": "Open",
+      "Contact Person": "Carlos Mendez",
+      "Contact Email": "carlos@consuelosplace.org",
+      "Notes": "DEET-free options appreciated",
+      "Last Updated": "2025-12-23T22:15:43.000Z",
+      "Created": "2025-12-23T22:14:08.000Z",
+      "Drop-off Location": [
+        "Saint Michael's Hall, 1600 St Michael's Drive Building 7, Santa Fe, NM 87505"
+      ],
+      "Drop-off Hours": [
+        "Mon-Sat 10am-4pm"
+      ],
+      "Contact Phone": [
+        "505-372-8206"
+      ]
+    }
+  },
+  {
+    "id": "recLLV2jFHxiHv8o7",
+    "createdTime": "2025-12-23T22:14:08.000Z",
+    "fields": {
+      "Item Name": "Lip balm",
+      "Category": "Hygiene",
+      "Requesting Organization": [
+        "recpD8WGAmSWmMVGA"
+      ],
+      "Quantity Needed": 100,
+      "Quantity Claimed": 20,
+      "Quantity Delivered": 15,
+      "Quantity Remaining": 85,
+      "Unit Type": "Individual items",
+      "Priority": "Normal",
+      "Needed By": "2025-01-30",
+      "Recurrence": "Monthly",
+      "Season": "Year-round",
+      "Status": "Partially Fulfilled",
+      "Contact Person": "James Wilson",
+      "Contact Email": "james@urban-alchemy.us",
+      "Notes": "SPF preferred",
+      "Last Updated": "2025-12-23T22:14:36.000Z",
+      "Created": "2025-12-23T22:14:08.000Z",
+      "Drop-off Location": [
+        "2801 Cerrillos Road, Santa Fe, NM 87505"
+      ],
+      "Drop-off Hours": [
+        "Daily 7am-7pm"
+      ],
+      "Contact Phone": [
+        "(505) 605-6540"
+      ]
+    }
+  },
+  {
+    "id": "recMNp3Cq72GjWBKh",
+    "createdTime": "2025-12-23T22:14:08.000Z",
+    "fields": {
+      "Item Name": "Peanut butter",
+      "Category": "Food (non-perishable)",
+      "Requesting Organization": [
+        "recpD8WGAmSWmMVGA"
+      ],
+      "Quantity Needed": 30,
+      "Quantity Claimed": 10,
+      "Quantity Delivered": 10,
+      "Quantity Remaining": 20,
+      "Unit Type": "Individual items",
+      "Priority": "Normal",
+      "Needed By": "2025-02-10",
+      "Recurrence": "Monthly",
+      "Season": "Year-round",
+      "Status": "Partially Fulfilled",
+      "Contact Person": "James Wilson",
+      "Contact Email": "james@urban-alchemy.us",
+      "Notes": "16oz jars",
+      "Last Updated": "2025-12-23T22:14:36.000Z",
+      "Created": "2025-12-23T22:14:08.000Z",
+      "Drop-off Location": [
+        "2801 Cerrillos Road, Santa Fe, NM 87505"
+      ],
+      "Drop-off Hours": [
+        "Daily 7am-7pm"
+      ],
+      "Contact Phone": [
+        "(505) 605-6540"
+      ]
+    }
+  },
+  {
+    "id": "recNj7BXetafUTKoK",
+    "createdTime": "2025-12-23T22:14:08.000Z",
+    "fields": {
+      "Item Name": "Sunscreen",
+      "Category": "Seasonal",
+      "Requesting Organization": [
+        "recpD8WGAmSWmMVGA"
+      ],
+      "Quantity Needed": 50,
+      "Quantity Claimed": 0,
+      "Quantity Delivered": 0,
+      "Quantity Remaining": 50,
+      "Unit Type": "Individual items",
+      "Priority": "Low",
+      "Needed By": "2025-05-01",
+      "Recurrence": "Seasonal",
+      "Season": "Summer",
+      "Status": "Open",
+      "Contact Person": "James Wilson",
+      "Contact Email": "james@urban-alchemy.us",
+      "Notes": "SPF 30+ preferred",
+      "Last Updated": "2025-12-23T22:14:36.000Z",
+      "Created": "2025-12-23T22:14:08.000Z",
+      "Drop-off Location": [
+        "2801 Cerrillos Road, Santa Fe, NM 87505"
+      ],
+      "Drop-off Hours": [
+        "Daily 7am-7pm"
+      ],
+      "Contact Phone": [
+        "(505) 605-6540"
+      ]
+    }
+  },
+  {
+    "id": "recO9uKWqehVHz3O6",
+    "createdTime": "2025-12-23T22:14:08.000Z",
+    "fields": {
+      "Item Name": "Baby wipes",
+      "Category": "Hygiene",
+      "Requesting Organization": [
+        "rec91J0d2eJjQLN3W"
+      ],
+      "Quantity Needed": 30,
+      "Quantity Claimed": 8,
+      "Quantity Delivered": 6,
+      "Quantity Remaining": 24,
+      "Unit Type": "Packs",
+      "Priority": "High",
+      "Needed By": "2025-01-15",
+      "Recurrence": "Monthly",
+      "Season": "Year-round",
+      "Status": "Partially Fulfilled",
+      "Contact Person": "Sarah Martinez",
+      "Contact Email": "sarah@casafamilia.org",
+      "Notes": "Unscented preferred",
+      "Last Updated": "2025-12-23T22:15:24.000Z",
+      "Created": "2025-12-23T22:14:08.000Z",
+      "Drop-off Location": [
+        "1604 Barry Ave\nSanta Fe, NM 87505"
+      ],
+      "Drop-off Hours": [
+        "Daily 7am-7pm"
+      ],
+      "Contact Phone": [
+        "505-983-2042"
+      ]
+    }
+  },
+  {
+    "id": "recPewqL9RNZK6y2o",
+    "createdTime": "2025-12-23T22:14:08.000Z",
+    "fields": {
+      "Item Name": "Phone charging cables",
+      "Category": "Other",
+      "Requesting Organization": [
+        "recFy1oAT87eRU6KX"
+      ],
+      "Quantity Needed": 30,
+      "Quantity Claimed": 10,
+      "Quantity Delivered": 8,
+      "Quantity Remaining": 22,
+      "Unit Type": "Individual items",
+      "Priority": "Normal",
+      "Needed By": "2025-02-01",
+      "Recurrence": "Quarterly",
+      "Season": "Year-round",
+      "Status": "Partially Fulfilled",
+      "Contact Person": "Linda Chen",
+      "Contact Email": "linda@thelifelink.org",
+      "Notes": "USB-C and Lightning both needed",
+      "Last Updated": "2025-12-23T22:15:01.000Z",
+      "Created": "2025-12-23T22:14:08.000Z",
+      "Drop-off Location": [
+        "2325 Cerrillos Rd.\nSanta Fe, NM 87505"
+      ],
+      "Drop-off Hours": [
+        "Mon-Fri 8am-4pm"
+      ],
+      "Contact Phone": [
+        "(505) 438-0010"
+      ]
+    }
+  },
+  {
+    "id": "recRmfIniQ4TJGEUT",
+    "createdTime": "2025-12-23T22:14:08.000Z",
+    "fields": {
+      "Item Name": "Sweatshirts",
+      "Category": "Clothing",
+      "Requesting Organization": [
+        "recFy1oAT87eRU6KX"
+      ],
+      "Quantity Needed": 40,
+      "Quantity Claimed": 10,
+      "Quantity Delivered": 8,
+      "Quantity Remaining": 32,
+      "Unit Type": "Individual items",
+      "Priority": "Normal",
+      "Needed By": "2025-02-01",
+      "Recurrence": "Quarterly",
+      "Season": "Year-round",
+      "Status": "Partially Fulfilled",
+      "Contact Person": "Linda Chen",
+      "Contact Email": "linda@thelifelink.org",
+      "Notes": "Hoodies preferred",
+      "Last Updated": "2025-12-23T22:15:01.000Z",
+      "Created": "2025-12-23T22:14:08.000Z",
+      "Drop-off Location": [
+        "2325 Cerrillos Rd.\nSanta Fe, NM 87505"
+      ],
+      "Drop-off Hours": [
+        "Mon-Fri 8am-4pm"
+      ],
+      "Contact Phone": [
+        "(505) 438-0010"
+      ]
+    }
+  },
+  {
+    "id": "recSvTHNf3BxqgwOQ",
+    "createdTime": "2025-12-23T22:14:08.000Z",
+    "fields": {
+      "Item Name": "Reading glasses",
+      "Category": "Medical/First Aid",
+      "Requesting Organization": [
+        "recFy1oAT87eRU6KX"
+      ],
+      "Quantity Needed": 30,
+      "Quantity Claimed": 5,
+      "Quantity Delivered": 3,
+      "Quantity Remaining": 27,
+      "Unit Type": "Individual items",
+      "Priority": "Low",
+      "Needed By": "2025-03-01",
+      "Recurrence": "Quarterly",
+      "Season": "Year-round",
+      "Status": "Partially Fulfilled",
+      "Contact Person": "Linda Chen",
+      "Contact Email": "linda@thelifelink.org",
+      "Notes": "Various strengths (+1.0 to +3.0)",
+      "Last Updated": "2025-12-23T22:15:01.000Z",
+      "Created": "2025-12-23T22:14:08.000Z",
+      "Drop-off Location": [
+        "2325 Cerrillos Rd.\nSanta Fe, NM 87505"
+      ],
+      "Drop-off Hours": [
+        "Mon-Fri 8am-4pm"
+      ],
+      "Contact Phone": [
+        "(505) 438-0010"
+      ]
+    }
+  },
+  {
+    "id": "recUXGcbbk9ocBTlV",
+    "createdTime": "2025-12-23T22:14:08.000Z",
+    "fields": {
+      "Item Name": "Bottled water",
+      "Category": "Food (non-perishable)",
+      "Requesting Organization": [
+        "recKrlSdBu8hD1K8B"
+      ],
+      "Quantity Needed": 50,
+      "Quantity Claimed": 20,
+      "Quantity Delivered": 15,
+      "Quantity Remaining": 35,
+      "Unit Type": "Cases",
+      "Priority": "Normal",
+      "Needed By": "2025-02-01",
+      "Recurrence": "Monthly",
+      "Season": "Year-round",
+      "Status": "Partially Fulfilled",
+      "Contact Person": "Maria Garcia",
+      "Contact Email": "maria@steshelter.org",
+      "Notes": "16oz bottles preferred",
+      "Last Updated": "2025-12-23T22:16:30.000Z",
+      "Created": "2025-12-23T22:14:08.000Z",
+      "Drop-off Location": [
+        "804 Alarid Street, Santa Fe, NM 87505"
+      ],
+      "Drop-off Hours": [
+        "Daily 7am-7pm"
+      ],
+      "Contact Phone": [
+        "505-982-6611"
+      ]
+    }
+  },
+  {
+    "id": "recUdHpPgxX2VxO09",
+    "createdTime": "2025-12-23T22:14:08.000Z",
+    "fields": {
+      "Item Name": "Backpacks",
+      "Category": "Other",
+      "Requesting Organization": [
+        "recKrlSdBu8hD1K8B"
+      ],
+      "Quantity Needed": 40,
+      "Quantity Claimed": 15,
+      "Quantity Delivered": 12,
+      "Quantity Remaining": 28,
+      "Unit Type": "Individual items",
+      "Priority": "Normal",
+      "Needed By": "2025-02-01",
+      "Recurrence": "Quarterly",
+      "Season": "Year-round",
+      "Status": "Partially Fulfilled",
+      "Contact Person": "Maria Garcia",
+      "Contact Email": "maria@steshelter.org",
+      "Notes": "Durable with multiple compartments",
+      "Last Updated": "2025-12-23T22:16:30.000Z",
+      "Created": "2025-12-23T22:14:08.000Z",
+      "Drop-off Location": [
+        "804 Alarid Street, Santa Fe, NM 87505"
+      ],
+      "Drop-off Hours": [
+        "Daily 7am-7pm"
+      ],
+      "Contact Phone": [
+        "505-982-6611"
+      ]
+    }
+  },
+  {
+    "id": "recVv0xldUFS8Eip8",
+    "createdTime": "2025-12-23T22:14:08.000Z",
+    "fields": {
+      "Item Name": "Underwear (new)",
+      "Category": "Clothing",
+      "Requesting Organization": [
+        "recKrlSdBu8hD1K8B"
+      ],
+      "Quantity Needed": 100,
+      "Quantity Claimed": 25,
+      "Quantity Delivered": 20,
+      "Quantity Remaining": 80,
+      "Unit Type": "Individual items",
+      "Priority": "High",
+      "Needed By": "2025-01-30",
+      "Recurrence": "Monthly",
+      "Season": "Year-round",
+      "Status": "Partially Fulfilled",
+      "Contact Person": "Maria Garcia",
+      "Contact Email": "maria@steshelter.org",
+      "Notes": "All sizes - must be new in package",
+      "Last Updated": "2025-12-23T22:16:30.000Z",
+      "Created": "2025-12-23T22:14:08.000Z",
+      "Drop-off Location": [
+        "804 Alarid Street, Santa Fe, NM 87505"
+      ],
+      "Drop-off Hours": [
+        "Daily 7am-7pm"
+      ],
+      "Contact Phone": [
+        "505-982-6611"
+      ]
+    }
+  },
+  {
+    "id": "recZyXC2T9m0zsxQF",
+    "createdTime": "2025-12-23T22:14:08.000Z",
+    "fields": {
+      "Item Name": "Wool socks",
+      "Category": "Clothing",
+      "Requesting Organization": [
+        "recqVEVaTTdv9kBxY"
+      ],
+      "Quantity Needed": 100,
+      "Quantity Claimed": 30,
+      "Quantity Delivered": 25,
+      "Quantity Remaining": 75,
+      "Unit Type": "Pairs",
+      "Priority": "High",
+      "Needed By": "2025-01-20",
+      "Recurrence": "Monthly",
+      "Season": "Year-round",
+      "Status": "Partially Fulfilled",
+      "Contact Person": "Carlos Mendez",
+      "Contact Email": "carlos@consuelosplace.org",
+      "Notes": "Mens sizes preferred",
+      "Last Updated": "2025-12-23T22:15:39.000Z",
+      "Created": "2025-12-23T22:14:08.000Z",
+      "Drop-off Location": [
+        "Saint Michael's Hall, 1600 St Michael's Drive Building 7, Santa Fe, NM 87505"
+      ],
+      "Drop-off Hours": [
+        "Mon-Sat 10am-4pm"
+      ],
+      "Contact Phone": [
+        "505-372-8206"
+      ]
+    }
+  },
+  {
+    "id": "recaqYLsHuETsiO7k",
+    "createdTime": "2025-12-23T22:14:08.000Z",
+    "fields": {
+      "Item Name": "Bus passes",
+      "Category": "Other",
+      "Requesting Organization": [
+        "recpD8WGAmSWmMVGA"
+      ],
+      "Quantity Needed": 100,
+      "Quantity Claimed": 30,
+      "Quantity Delivered": 25,
+      "Quantity Remaining": 75,
+      "Unit Type": "Individual items",
+      "Priority": "High",
+      "Needed By": "2025-01-31",
+      "Recurrence": "Monthly",
+      "Season": "Year-round",
+      "Status": "Partially Fulfilled",
+      "Contact Person": "James Wilson",
+      "Contact Email": "james@urban-alchemy.us",
+      "Notes": "Day passes or punch cards",
+      "Last Updated": "2025-12-23T22:14:36.000Z",
+      "Created": "2025-12-23T22:14:08.000Z",
+      "Drop-off Location": [
+        "2801 Cerrillos Road, Santa Fe, NM 87505"
+      ],
+      "Drop-off Hours": [
+        "Daily 7am-7pm"
+      ],
+      "Contact Phone": [
+        "(505) 605-6540"
+      ]
+    }
+  },
+  {
+    "id": "reccmrUli51uAVekL",
+    "createdTime": "2025-12-23T22:14:08.000Z",
+    "fields": {
+      "Item Name": "Propane canisters",
+      "Category": "Shelter Supplies",
+      "Requesting Organization": [
+        "recqVEVaTTdv9kBxY"
+      ],
+      "Quantity Needed": 50,
+      "Quantity Claimed": 10,
+      "Quantity Delivered": 5,
+      "Quantity Remaining": 45,
+      "Unit Type": "Individual items",
+      "Priority": "High",
+      "Needed By": "2025-01-20",
+      "Recurrence": "Seasonal",
+      "Season": "Winter",
+      "Status": "Partially Fulfilled",
+      "Contact Person": "Carlos Mendez",
+      "Contact Email": "carlos@consuelosplace.org",
+      "Notes": "1lb camping size for portable stoves",
+      "Last Updated": "2025-12-23T22:15:43.000Z",
+      "Created": "2025-12-23T22:14:08.000Z",
+      "Drop-off Location": [
+        "Saint Michael's Hall, 1600 St Michael's Drive Building 7, Santa Fe, NM 87505"
+      ],
+      "Drop-off Hours": [
+        "Mon-Sat 10am-4pm"
+      ],
+      "Contact Phone": [
+        "505-372-8206"
+      ]
+    }
+  },
+  {
+    "id": "recdeNHYpQ9V6Tbw4",
+    "createdTime": "2025-12-23T22:14:08.000Z",
+    "fields": {
+      "Item Name": "Thermal underwear",
+      "Category": "Clothing",
+      "Requesting Organization": [
+        "recqVEVaTTdv9kBxY"
+      ],
+      "Quantity Needed": 40,
+      "Quantity Claimed": 10,
+      "Quantity Delivered": 8,
+      "Quantity Remaining": 32,
+      "Unit Type": "Individual items",
+      "Priority": "High",
+      "Needed By": "2025-01-20",
+      "Recurrence": "Seasonal",
+      "Season": "Winter",
+      "Status": "Partially Fulfilled",
+      "Contact Person": "Carlos Mendez",
+      "Contact Email": "carlos@consuelosplace.org",
+      "Notes": "All sizes needed",
+      "Last Updated": "2025-12-23T22:15:43.000Z",
+      "Created": "2025-12-23T22:14:08.000Z",
+      "Drop-off Location": [
+        "Saint Michael's Hall, 1600 St Michael's Drive Building 7, Santa Fe, NM 87505"
+      ],
+      "Drop-off Hours": [
+        "Mon-Sat 10am-4pm"
+      ],
+      "Contact Phone": [
+        "505-372-8206"
+      ]
+    }
+  },
+  {
+    "id": "receFR0xavMDg2mOy",
+    "createdTime": "2025-12-23T22:14:08.000Z",
+    "fields": {
+      "Item Name": "Bandages (assorted)",
+      "Category": "Medical/First Aid",
+      "Requesting Organization": [
+        "recqVEVaTTdv9kBxY"
+      ],
+      "Quantity Needed": 30,
+      "Quantity Claimed": 10,
+      "Quantity Delivered": 8,
+      "Quantity Remaining": 22,
+      "Unit Type": "Boxes",
+      "Priority": "Normal",
+      "Needed By": "2025-02-01",
+      "Recurrence": "Monthly",
+      "Season": "Year-round",
+      "Status": "Partially Fulfilled",
+      "Contact Person": "Carlos Mendez",
+      "Contact Email": "carlos@consuelosplace.org",
+      "Notes": "Various sizes",
+      "Last Updated": "2025-12-23T22:15:43.000Z",
+      "Created": "2025-12-23T22:14:08.000Z",
+      "Drop-off Location": [
+        "Saint Michael's Hall, 1600 St Michael's Drive Building 7, Santa Fe, NM 87505"
+      ],
+      "Drop-off Hours": [
+        "Mon-Sat 10am-4pm"
+      ],
+      "Contact Phone": [
+        "505-372-8206"
+      ]
+    }
+  },
+  {
+    "id": "recji7TB635HGtekZ",
+    "createdTime": "2025-12-23T22:14:08.000Z",
+    "fields": {
+      "Item Name": "Jeans",
+      "Category": "Clothing",
+      "Requesting Organization": [
+        "recpD8WGAmSWmMVGA"
+      ],
+      "Quantity Needed": 50,
+      "Quantity Claimed": 10,
+      "Quantity Delivered": 8,
+      "Quantity Remaining": 42,
+      "Unit Type": "Individual items",
+      "Priority": "Normal",
+      "Needed By": "2025-02-15",
+      "Recurrence": "Quarterly",
+      "Season": "Year-round",
+      "Status": "Partially Fulfilled",
+      "Contact Person": "James Wilson",
+      "Contact Email": "james@urban-alchemy.us",
+      "Notes": "Gently used ok - all sizes",
+      "Last Updated": "2025-12-23T22:14:36.000Z",
+      "Created": "2025-12-23T22:14:08.000Z",
+      "Drop-off Location": [
+        "2801 Cerrillos Road, Santa Fe, NM 87505"
+      ],
+      "Drop-off Hours": [
+        "Daily 7am-7pm"
+      ],
+      "Contact Phone": [
+        "(505) 605-6540"
+      ]
+    }
+  },
+  {
+    "id": "reclX69Bv7u1yHGiQ",
+    "createdTime": "2025-12-23T22:14:08.000Z",
+    "fields": {
+      "Item Name": "Granola bars",
+      "Category": "Food (non-perishable)",
+      "Requesting Organization": [
+        "recFy1oAT87eRU6KX"
+      ],
+      "Quantity Needed": 100,
+      "Quantity Claimed": 40,
+      "Quantity Delivered": 40,
+      "Quantity Remaining": 60,
+      "Unit Type": "Boxes",
+      "Priority": "Normal",
+      "Needed By": "2025-02-15",
+      "Recurrence": "Monthly",
+      "Season": "Year-round",
+      "Status": "Partially Fulfilled",
+      "Contact Person": "Linda Chen",
+      "Contact Email": "linda@thelifelink.org",
+      "Notes": "Nut-free options appreciated",
+      "Last Updated": "2025-12-23T22:14:49.000Z",
+      "Created": "2025-12-23T22:14:08.000Z",
+      "Drop-off Location": [
+        "2325 Cerrillos Rd.\nSanta Fe, NM 87505"
+      ],
+      "Drop-off Hours": [
+        "Mon-Fri 8am-4pm"
+      ],
+      "Contact Phone": [
+        "(505) 438-0010"
+      ]
+    }
+  },
+  {
+    "id": "reclap7DgbwBiDeSM",
+    "createdTime": "2025-12-23T22:14:08.000Z",
+    "fields": {
+      "Item Name": "Shoes (sneakers)",
+      "Category": "Clothing",
+      "Requesting Organization": [
+        "recKrlSdBu8hD1K8B"
+      ],
+      "Quantity Needed": 30,
+      "Quantity Claimed": 5,
+      "Quantity Delivered": 3,
+      "Quantity Remaining": 27,
+      "Unit Type": "Pairs",
+      "Priority": "High",
+      "Needed By": "2025-02-01",
+      "Recurrence": "Quarterly",
+      "Season": "Year-round",
+      "Status": "Partially Fulfilled",
+      "Contact Person": "Maria Garcia",
+      "Contact Email": "maria@steshelter.org",
+      "Notes": "Mens 9-12 most needed",
+      "Last Updated": "2025-12-23T22:16:30.000Z",
+      "Created": "2025-12-23T22:14:08.000Z",
+      "Drop-off Location": [
+        "804 Alarid Street, Santa Fe, NM 87505"
+      ],
+      "Drop-off Hours": [
+        "Daily 7am-7pm"
+      ],
+      "Contact Phone": [
+        "505-982-6611"
+      ]
+    }
+  },
+  {
+    "id": "reclrHLfBk4iagl9c",
+    "createdTime": "2025-12-23T22:14:08.000Z",
+    "fields": {
+      "Item Name": "Winter coats (children)",
+      "Category": "Clothing",
+      "Requesting Organization": [
+        "rec91J0d2eJjQLN3W"
+      ],
+      "Quantity Needed": 25,
+      "Quantity Claimed": 5,
+      "Quantity Delivered": 5,
+      "Quantity Remaining": 20,
+      "Unit Type": "Individual items",
+      "Priority": "Urgent",
+      "Needed By": "2025-01-10",
+      "Recurrence": "Seasonal",
+      "Season": "Winter",
+      "Status": "Partially Fulfilled",
+      "Contact Person": "Sarah Martinez",
+      "Contact Email": "sarah@casafamilia.org",
+      "Notes": "Sizes 4-14",
+      "Last Updated": "2025-12-23T22:15:15.000Z",
+      "Created": "2025-12-23T22:14:08.000Z",
+      "Drop-off Location": [
+        "1604 Barry Ave\nSanta Fe, NM 87505"
+      ],
+      "Drop-off Hours": [
+        "Daily 7am-7pm"
+      ],
+      "Contact Phone": [
+        "505-983-2042"
+      ]
+    }
+  },
+  {
+    "id": "recnJYxZHRu99l7nW",
+    "createdTime": "2025-12-23T22:14:08.000Z",
+    "fields": {
+      "Item Name": "First aid kits",
+      "Category": "Medical/First Aid",
+      "Requesting Organization": [
+        "recFy1oAT87eRU6KX"
+      ],
+      "Quantity Needed": 20,
+      "Quantity Claimed": 5,
+      "Quantity Delivered": 3,
+      "Quantity Remaining": 17,
+      "Unit Type": "Individual items",
+      "Priority": "Normal",
+      "Needed By": "2025-01-30",
+      "Recurrence": "Quarterly",
+      "Season": "Year-round",
+      "Status": "Partially Fulfilled",
+      "Contact Person": "Linda Chen",
+      "Contact Email": "linda@thelifelink.org",
+      "Notes": "Basic kits ok",
+      "Last Updated": "2025-12-23T22:15:01.000Z",
+      "Created": "2025-12-23T22:14:08.000Z",
+      "Drop-off Location": [
+        "2325 Cerrillos Rd.\nSanta Fe, NM 87505"
+      ],
+      "Drop-off Hours": [
+        "Mon-Fri 8am-4pm"
+      ],
+      "Contact Phone": [
+        "(505) 438-0010"
+      ]
+    }
+  },
+  {
+    "id": "reco5Uiu9Q1iunL7S",
+    "createdTime": "2025-12-23T22:14:08.000Z",
+    "fields": {
+      "Item Name": "Sleeping bags",
+      "Category": "Bedding",
+      "Requesting Organization": [
+        "recKrlSdBu8hD1K8B"
+      ],
+      "Quantity Needed": 20,
+      "Quantity Claimed": 5,
+      "Quantity Delivered": 2,
+      "Quantity Remaining": 18,
+      "Unit Type": "Individual items",
+      "Priority": "High",
+      "Needed By": "2025-01-15",
+      "Recurrence": "Seasonal",
+      "Season": "Winter",
+      "Status": "Partially Fulfilled",
+      "Contact Person": "Maria Garcia",
+      "Contact Email": "maria@steshelter.org",
+      "Notes": "Prefer mummy-style rated to 20F",
+      "Last Updated": "2025-12-23T22:16:22.000Z",
+      "Created": "2025-12-23T22:14:08.000Z",
+      "Drop-off Location": [
+        "804 Alarid Street, Santa Fe, NM 87505"
+      ],
+      "Drop-off Hours": [
+        "Daily 7am-7pm"
+      ],
+      "Contact Phone": [
+        "505-982-6611"
+      ]
+    }
+  },
+  {
+    "id": "recoufexuA5GkVwNv",
+    "createdTime": "2025-12-23T22:14:08.000Z",
+    "fields": {
+      "Item Name": "Pillows",
+      "Category": "Bedding",
+      "Requesting Organization": [
+        "recFy1oAT87eRU6KX"
+      ],
+      "Quantity Needed": 25,
+      "Quantity Claimed": 5,
+      "Quantity Delivered": 5,
+      "Quantity Remaining": 20,
+      "Unit Type": "Individual items",
+      "Priority": "Normal",
+      "Needed By": "2025-02-01",
+      "Recurrence": "Quarterly",
+      "Season": "Year-round",
+      "Status": "Partially Fulfilled",
+      "Contact Person": "Linda Chen",
+      "Contact Email": "linda@thelifelink.org",
+      "Notes": "Standard size",
+      "Last Updated": "2025-12-23T22:15:01.000Z",
+      "Created": "2025-12-23T22:14:08.000Z",
+      "Drop-off Location": [
+        "2325 Cerrillos Rd.\nSanta Fe, NM 87505"
+      ],
+      "Drop-off Hours": [
+        "Mon-Fri 8am-4pm"
+      ],
+      "Contact Phone": [
+        "(505) 438-0010"
+      ]
+    }
+  },
+  {
+    "id": "recp9IvCtbDNcWfV8",
+    "createdTime": "2025-12-23T22:14:08.000Z",
+    "fields": {
+      "Item Name": "Crackers",
+      "Category": "Food (non-perishable)",
+      "Requesting Organization": [
+        "recpD8WGAmSWmMVGA"
+      ],
+      "Quantity Needed": 30,
+      "Quantity Claimed": 8,
+      "Quantity Delivered": 5,
+      "Quantity Remaining": 25,
+      "Unit Type": "Boxes",
+      "Priority": "Normal",
+      "Needed By": "2025-02-01",
+      "Recurrence": "Monthly",
+      "Season": "Year-round",
+      "Status": "Partially Fulfilled",
+      "Contact Person": "Pete Johnson",
+      "Contact Email": "pete@urban-alchemy.us",
+      "Last Updated": "2025-12-23T22:14:36.000Z",
+      "Created": "2025-12-23T22:14:08.000Z",
+      "Drop-off Location": [
+        "2801 Cerrillos Road, Santa Fe, NM 87505"
+      ],
+      "Drop-off Hours": [
+        "Daily 7am-7pm"
+      ],
+      "Contact Phone": [
+        "(505) 605-6540"
+      ]
+    }
+  },
+  {
+    "id": "recq3jzKIzK6OHByQ",
+    "createdTime": "2025-12-23T22:14:08.000Z",
+    "fields": {
+      "Item Name": "Toothbrushes",
+      "Category": "Hygiene",
+      "Requesting Organization": [
+        "recKrlSdBu8hD1K8B"
+      ],
+      "Quantity Needed": 200,
+      "Quantity Claimed": 50,
+      "Quantity Delivered": 50,
+      "Quantity Remaining": 150,
+      "Unit Type": "Individual items",
+      "Priority": "Normal",
+      "Needed By": "2025-01-30",
+      "Recurrence": "Monthly",
+      "Season": "Year-round",
+      "Status": "Partially Fulfilled",
+      "Contact Person": "Maria Garcia",
+      "Contact Email": "maria@steshelter.org",
+      "Notes": "Individually wrapped",
+      "Last Updated": "2025-12-23T22:16:30.000Z",
+      "Created": "2025-12-23T22:14:08.000Z",
+      "Drop-off Location": [
+        "804 Alarid Street, Santa Fe, NM 87505"
+      ],
+      "Drop-off Hours": [
+        "Daily 7am-7pm"
+      ],
+      "Contact Phone": [
+        "505-982-6611"
+      ]
+    }
+  },
+  {
+    "id": "recqLmUDvcmLrnGrG",
+    "createdTime": "2025-12-23T22:14:08.000Z",
+    "fields": {
+      "Item Name": "Hand warmers",
+      "Category": "Seasonal",
+      "Requesting Organization": [
+        "recpD8WGAmSWmMVGA"
+      ],
+      "Quantity Needed": 200,
+      "Quantity Claimed": 50,
+      "Quantity Delivered": 0,
+      "Quantity Remaining": 200,
+      "Unit Type": "Packs",
+      "Priority": "High",
+      "Needed By": "2025-01-08",
+      "Recurrence": "Seasonal",
+      "Season": "Winter",
+      "Status": "Open",
+      "Contact Person": "Pete Johnson",
+      "Contact Email": "pete@urban-alchemy.us",
+      "Notes": "HotHands brand preferred",
+      "Last Updated": "2025-12-23T22:14:36.000Z",
+      "Created": "2025-12-23T22:14:08.000Z",
+      "Drop-off Location": [
+        "2801 Cerrillos Road, Santa Fe, NM 87505"
+      ],
+      "Drop-off Hours": [
+        "Daily 7am-7pm"
+      ],
+      "Contact Phone": [
+        "(505) 605-6540"
+      ]
+    }
+  },
+  {
+    "id": "recsu0TVqwKQm7uqf",
+    "createdTime": "2025-12-23T22:14:08.000Z",
+    "fields": {
+      "Item Name": "T-shirts",
+      "Category": "Clothing",
+      "Requesting Organization": [
+        "recpD8WGAmSWmMVGA"
+      ],
+      "Quantity Needed": 75,
+      "Quantity Claimed": 20,
+      "Quantity Delivered": 15,
+      "Quantity Remaining": 60,
+      "Unit Type": "Individual items",
+      "Priority": "Normal",
+      "Needed By": "2025-02-15",
+      "Recurrence": "Quarterly",
+      "Season": "Year-round",
+      "Status": "Partially Fulfilled",
+      "Contact Person": "Pete Johnson",
+      "Contact Email": "pete@urban-alchemy.us",
+      "Notes": "L and XL most needed",
+      "Last Updated": "2025-12-23T22:14:36.000Z",
+      "Created": "2025-12-23T22:14:08.000Z",
+      "Drop-off Location": [
+        "2801 Cerrillos Road, Santa Fe, NM 87505"
+      ],
+      "Drop-off Hours": [
+        "Daily 7am-7pm"
+      ],
+      "Contact Phone": [
+        "(505) 605-6540"
+      ]
+    }
+  },
+  {
+    "id": "recuNeeUdo1llLI6T",
+    "createdTime": "2025-12-23T22:14:08.000Z",
+    "fields": {
+      "Item Name": "Dog food",
+      "Category": "Other",
+      "Requesting Organization": [
+        "recKrlSdBu8hD1K8B"
+      ],
+      "Quantity Needed": 20,
+      "Quantity Claimed": 5,
+      "Quantity Delivered": 3,
+      "Quantity Remaining": 17,
+      "Unit Type": "Bags",
+      "Priority": "Normal",
+      "Needed By": "2025-02-01",
+      "Recurrence": "Monthly",
+      "Season": "Year-round",
+      "Status": "Partially Fulfilled",
+      "Contact Person": "Maria Garcia",
+      "Contact Email": "maria@steshelter.org",
+      "Notes": "Small bags (5-10 lbs) easier to distribute",
+      "Last Updated": "2025-12-23T22:16:30.000Z",
+      "Created": "2025-12-23T22:14:08.000Z",
+      "Drop-off Location": [
+        "804 Alarid Street, Santa Fe, NM 87505"
+      ],
+      "Drop-off Hours": [
+        "Daily 7am-7pm"
+      ],
+      "Contact Phone": [
+        "505-982-6611"
+      ]
+    }
+  },
+  {
+    "id": "recueF9bmY43kg7QZ",
+    "createdTime": "2025-12-23T22:14:08.000Z",
+    "fields": {
+      "Item Name": "Canned soup",
+      "Category": "Food (non-perishable)",
+      "Requesting Organization": [
+        "recqVEVaTTdv9kBxY"
+      ],
+      "Quantity Needed": 75,
+      "Quantity Claimed": 25,
+      "Quantity Delivered": 20,
+      "Quantity Remaining": 55,
+      "Unit Type": "Individual items",
+      "Priority": "Normal",
+      "Needed By": "2025-02-01",
+      "Recurrence": "Monthly",
+      "Season": "Year-round",
+      "Status": "Partially Fulfilled",
+      "Contact Person": "Carlos Mendez",
+      "Contact Email": "carlos@consuelosplace.org",
+      "Notes": "Pop-top cans only",
+      "Last Updated": "2025-12-23T22:15:43.000Z",
+      "Created": "2025-12-23T22:14:08.000Z",
+      "Drop-off Location": [
+        "Saint Michael's Hall, 1600 St Michael's Drive Building 7, Santa Fe, NM 87505"
+      ],
+      "Drop-off Hours": [
+        "Mon-Sat 10am-4pm"
+      ],
+      "Contact Phone": [
+        "505-372-8206"
+      ]
+    }
+  },
+  {
+    "id": "recvUEvxjHD2xsdv5",
+    "createdTime": "2025-12-23T22:14:08.000Z",
+    "fields": {
+      "Item Name": "Feminine hygiene products",
+      "Category": "Hygiene",
+      "Requesting Organization": [
+        "rec91J0d2eJjQLN3W"
+      ],
+      "Quantity Needed": 50,
+      "Quantity Claimed": 15,
+      "Quantity Delivered": 10,
+      "Quantity Remaining": 40,
+      "Unit Type": "Boxes",
+      "Priority": "High",
+      "Needed By": "2025-01-25",
+      "Recurrence": "Monthly",
+      "Season": "Year-round",
+      "Status": "Partially Fulfilled",
+      "Contact Person": "Sarah Martinez",
+      "Contact Email": "sarah@casafamilia.org",
+      "Notes": "Pads and tampons both needed",
+      "Last Updated": "2025-12-23T22:15:24.000Z",
+      "Created": "2025-12-23T22:14:08.000Z",
+      "Drop-off Location": [
+        "1604 Barry Ave\nSanta Fe, NM 87505"
+      ],
+      "Drop-off Hours": [
+        "Daily 7am-7pm"
+      ],
+      "Contact Phone": [
+        "505-983-2042"
+      ]
+    }
+  },
+  {
+    "id": "recwObgbtU9u3yb6J",
+    "createdTime": "2025-12-23T22:14:08.000Z",
+    "fields": {
+      "Item Name": "Shampoo",
+      "Category": "Hygiene",
+      "Requesting Organization": [
+        "recpD8WGAmSWmMVGA"
+      ],
+      "Quantity Needed": 60,
+      "Quantity Claimed": 20,
+      "Quantity Delivered": 15,
+      "Quantity Remaining": 45,
+      "Unit Type": "Individual items",
+      "Priority": "Normal",
+      "Needed By": "2025-02-01",
+      "Recurrence": "Monthly",
+      "Season": "Year-round",
+      "Status": "Partially Fulfilled",
+      "Contact Person": "Pete Johnson",
+      "Contact Email": "pete@urban-alchemy.us",
+      "Notes": "Travel or full size",
+      "Last Updated": "2025-12-23T22:14:36.000Z",
+      "Created": "2025-12-23T22:14:08.000Z",
+      "Drop-off Location": [
+        "2801 Cerrillos Road, Santa Fe, NM 87505"
+      ],
+      "Drop-off Hours": [
+        "Daily 7am-7pm"
+      ],
+      "Contact Phone": [
+        "(505) 605-6540"
+      ]
+    }
+  },
+  {
+    "id": "recwzJZFBBpDPkPA5",
+    "createdTime": "2025-12-23T22:14:08.000Z",
+    "fields": {
+      "Item Name": "Toothpaste",
+      "Category": "Hygiene",
+      "Requesting Organization": [
+        "recKrlSdBu8hD1K8B"
+      ],
+      "Quantity Needed": 100,
+      "Quantity Claimed": 30,
+      "Quantity Delivered": 25,
+      "Quantity Remaining": 75,
+      "Unit Type": "Individual items",
+      "Priority": "Normal",
+      "Needed By": "2025-01-30",
+      "Recurrence": "Monthly",
+      "Season": "Year-round",
+      "Status": "Partially Fulfilled",
+      "Contact Person": "Maria Garcia",
+      "Contact Email": "maria@steshelter.org",
+      "Notes": "Travel size ok",
+      "Last Updated": "2025-12-23T22:16:30.000Z",
+      "Created": "2025-12-23T22:14:08.000Z",
+      "Drop-off Location": [
+        "804 Alarid Street, Santa Fe, NM 87505"
+      ],
+      "Drop-off Hours": [
+        "Daily 7am-7pm"
+      ],
+      "Contact Phone": [
+        "505-982-6611"
+      ]
+    }
+  },
+  {
+    "id": "recxAO3qlLhVezLR7",
+    "createdTime": "2025-12-23T22:14:08.000Z",
+    "fields": {
+      "Item Name": "Tarps",
+      "Category": "Shelter Supplies",
+      "Requesting Organization": [
+        "recqVEVaTTdv9kBxY"
+      ],
+      "Quantity Needed": 15,
+      "Quantity Claimed": 5,
+      "Quantity Delivered": 3,
+      "Quantity Remaining": 12,
+      "Unit Type": "Individual items",
+      "Priority": "High",
+      "Needed By": "2025-01-15",
+      "Recurrence": "Seasonal",
+      "Season": "Winter",
+      "Status": "Partially Fulfilled",
+      "Contact Person": "Carlos Mendez",
+      "Contact Email": "carlos@consuelosplace.org",
+      "Notes": "8x10 or larger",
+      "Last Updated": "2025-12-23T22:15:43.000Z",
+      "Created": "2025-12-23T22:14:08.000Z",
+      "Drop-off Location": [
+        "Saint Michael's Hall, 1600 St Michael's Drive Building 7, Santa Fe, NM 87505"
+      ],
+      "Drop-off Hours": [
+        "Mon-Sat 10am-4pm"
+      ],
+      "Contact Phone": [
+        "505-372-8206"
+      ]
+    }
+  },
+  {
+    "id": "recyYw4OPQc85ezX9",
+    "createdTime": "2025-12-23T22:14:08.000Z",
+    "fields": {
+      "Item Name": "Antibiotic ointment",
+      "Category": "Medical/First Aid",
+      "Requesting Organization": [
+        "recpD8WGAmSWmMVGA"
+      ],
+      "Quantity Needed": 25,
+      "Quantity Claimed": 8,
+      "Quantity Delivered": 5,
+      "Quantity Remaining": 20,
+      "Unit Type": "Individual items",
+      "Priority": "Normal",
+      "Needed By": "2025-02-01",
+      "Recurrence": "Monthly",
+      "Season": "Year-round",
+      "Status": "Partially Fulfilled",
+      "Contact Person": "Pete Johnson",
+      "Contact Email": "pete@urban-alchemy.us",
+      "Notes": "Neosporin or generic",
+      "Last Updated": "2025-12-23T22:14:36.000Z",
+      "Created": "2025-12-23T22:14:08.000Z",
+      "Drop-off Location": [
+        "2801 Cerrillos Road, Santa Fe, NM 87505"
+      ],
+      "Drop-off Hours": [
+        "Daily 7am-7pm"
+      ],
+      "Contact Phone": [
+        "(505) 605-6540"
+      ]
+    }
+  },
+  {
+    "id": "recydr5oqzbJ3aamh",
+    "createdTime": "2025-12-23T22:14:08.000Z",
+    "fields": {
+      "Item Name": "Flashlights",
+      "Category": "Other",
+      "Requesting Organization": [
+        "recpD8WGAmSWmMVGA"
+      ],
+      "Quantity Needed": 25,
+      "Quantity Claimed": 8,
+      "Quantity Delivered": 5,
+      "Quantity Remaining": 20,
+      "Unit Type": "Individual items",
+      "Priority": "Normal",
+      "Needed By": "2025-02-01",
+      "Recurrence": "Quarterly",
+      "Season": "Year-round",
+      "Status": "Partially Fulfilled",
+      "Contact Person": "Pete Johnson",
+      "Contact Email": "pete@urban-alchemy.us",
+      "Notes": "LED with batteries included",
+      "Last Updated": "2025-12-23T22:14:36.000Z",
+      "Created": "2025-12-23T22:14:08.000Z",
+      "Drop-off Location": [
+        "2801 Cerrillos Road, Santa Fe, NM 87505"
+      ],
+      "Drop-off Hours": [
+        "Daily 7am-7pm"
+      ],
+      "Contact Phone": [
+        "(505) 605-6540"
+      ]
+    }
+  }
+]

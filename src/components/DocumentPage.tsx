@@ -45,7 +45,7 @@ export function DocumentPage({
   return (
     <main className="flex flex-col max-w-desktop-lg mx-auto px-4">
       <div className="grid grid-cols-4 tablet-lg:grid-cols-12 gap-3">
-        <div className="col-span-4 tablet-lg:col-span-8 tablet-lg:col-start-3">
+        <div className="col-span-4 tablet-lg:col-span-10 tablet-lg:col-start-3">
           <div className="space-y-8">
             {/* Front Matter Header */}
             <div className="py-12">

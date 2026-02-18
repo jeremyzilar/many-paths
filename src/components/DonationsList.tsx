@@ -4,11 +4,14 @@ import { useEffect, useState } from "react";
 import { DonationsRecord, ProvidersRecord } from "@/types/airtable";
 import { getDonationsRecords, getProvidersRecords } from "@/lib/airtable";
 
+type SortOption = "priority" | "provider" | "date";
+
 export function DonationsList() {
   const [donations, setDonations] = useState<DonationsRecord[]>([]);
   const [providers, setProviders] = useState<ProvidersRecord[]>([]);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState("");
+  const [sortBy, setSortBy] = useState<SortOption>("priority");
 
   useEffect(() => {
     const fetchData = async () => {
@@ -30,28 +33,20 @@ export function DonationsList() {
     void fetchData();
   }, []);
 
-  // Format date
-  const formatDate = (dateString: string | undefined) => {
-    if (!dateString) {
-      return "";
+  // Get priority color
+  const getPriorityColor = (priority: string | undefined) => {
+    switch (priority) {
+      case "Urgent":
+        return "bg-red-100 text-red-800 dark:bg-red-900 dark:text-red-200";
+      case "High":
+        return "bg-orange-100 text-orange-800 dark:bg-orange-900 dark:text-orange-200";
+      case "Normal":
+        return "bg-blue-100 text-blue-800 dark:bg-blue-900 dark:text-blue-200";
+      case "Low":
+        return "bg-gray-100 text-gray-800 dark:bg-gray-700 dark:text-gray-200";
+      default:
+        return "bg-gray-100 text-gray-800 dark:bg-gray-700 dark:text-gray-200";
     }
-    const date = new Date(dateString);
-    return date.toLocaleDateString("en-US", {
-      year: "numeric",
-      month: "short",
-      day: "numeric",
-    });
-  };
-
-  // Check if date is past due
-  const isPastDue = (dateString: string | undefined) => {
-    if (!dateString) {
-      return false;
-    }
-    const date = new Date(dateString);
-    const today = new Date();
-    today.setHours(0, 0, 0, 0);
-    return date < today;
   };
 
   if (loading) {
@@ -92,19 +87,22 @@ export function DonationsList() {
     return provider?.fields.Name || null;
   };
 
-  // Get phone number - donation's phone or fallback to provider's phone
+  // Get phone number from lookup field or provider
   const getPhoneNumber = (donation: DonationsRecord) => {
-    // First check if donation has a phone number
-    if (donation.fields.Phone) {
-      return donation.fields.Phone;
+    // First check lookup field
+    if (
+      donation.fields["Contact Phone"] &&
+      donation.fields["Contact Phone"].length > 0
+    ) {
+      return donation.fields["Contact Phone"][0];
     }
 
     // Fall back to provider's phone
     if (
-      donation.fields["Who needs it"] &&
-      donation.fields["Who needs it"].length > 0
+      donation.fields["Requesting Organization"] &&
+      donation.fields["Requesting Organization"].length > 0
     ) {
-      const providerId = donation.fields["Who needs it"][0];
+      const providerId = donation.fields["Requesting Organization"][0];
       const provider = providers.find((p) => p.id === providerId);
       return provider?.fields.Phone || null;
     }
@@ -112,112 +110,190 @@ export function DonationsList() {
     return null;
   };
 
+  // Get drop-off location
+  const getDropOffLocation = (donation: DonationsRecord) => {
+    if (
+      donation.fields["Drop-off Location"] &&
+      donation.fields["Drop-off Location"].length > 0
+    ) {
+      return donation.fields["Drop-off Location"][0];
+    }
+    return null;
+  };
+
+  // Filter to only show open/partially fulfilled items
+  const activeItems = donations.filter(
+    (d) =>
+      d.fields.Status === "Open" || d.fields.Status === "Partially Fulfilled"
+  );
+
+  // Sort based on selected option
+  const priorityOrder = { Urgent: 0, High: 1, Normal: 2, Low: 3 };
+  const sortedDonations = [...activeItems].sort((a, b) => {
+    switch (sortBy) {
+      case "priority": {
+        const aPriority =
+          priorityOrder[a.fields.Priority as keyof typeof priorityOrder] ?? 4;
+        const bPriority =
+          priorityOrder[b.fields.Priority as keyof typeof priorityOrder] ?? 4;
+        return aPriority - bPriority;
+      }
+      case "provider": {
+        const aProvider =
+          getProviderName(a.fields["Requesting Organization"]) || "";
+        const bProvider =
+          getProviderName(b.fields["Requesting Organization"]) || "";
+        return aProvider.localeCompare(bProvider);
+      }
+      case "date": {
+        // Sort by createdTime, newest first
+        const aDate = new Date(a.createdTime).getTime();
+        const bDate = new Date(b.createdTime).getTime();
+        return bDate - aDate;
+      }
+      default:
+        return 0;
+    }
+  });
+
   return (
-    <div className="space-y-4 max-w-4xl mx-auto">
-      {/* Items Needed List - Single Column */}
-      {donations.map((donation) => (
-        <div
-          key={donation.id}
-          className={`bg-white dark:bg-gray-800 rounded-lg shadow-md border-2 overflow-hidden ${
-            isPastDue(donation.fields["Date needed by"])
-              ? "border-red-300 dark:border-red-800"
-              : "border-gray-200 dark:border-gray-700"
-          }`}
-        >
-          <div className="p-6">
-            {donation.fields["Who needs it"] && (
-              <div className="flex items-center gap-2 text-sm mb-3">
-                <span className="font-semibold text-accent-purple-600 dark:text-accent-purple-400">
-                  {getProviderName(donation.fields["Who needs it"])}
-                </span>
-              </div>
-            )}
-            <h3 className="font-semibold text-xl text-gray-900 dark:text-white mb-3">
-              {donation.fields["Item needed"]}
-            </h3>
-
-            {donation.fields["Quantity needed"] && (
-              <div className="flex items-center gap-1 mb-3">
-                <span className="text-gray-600 dark:text-gray-400 text-sm">
-                  Quantity:
-                </span>
-                <span className="text-sm text-blue-600 dark:text-blue-400">
-                  {donation.fields["Quantity needed"]}
-                </span>
-              </div>
-            )}
-
-            {donation.fields.Description && (
-              <p className="text-sm text-gray-700 dark:text-gray-300 mt-3">
-                {donation.fields.Description}
-              </p>
-            )}
-          </div>
-
-          {/* Bottom Bar with Provider, Date, and Contact Info */}
-          <div className="bg-slate-100 dark:bg-gray-900 px-6 py-4 border-t border-gray-200 dark:border-gray-700">
-            {/* Top row: Provider and Date */}
-            <div className="flex items-center justify-between gap-4 flex-wrap mb-3">
-              {donation.fields["Date needed by"] && (
-                <div
-                  className={`flex items-center gap-2 text-sm font-medium ${
-                    isPastDue(donation.fields["Date needed by"])
-                      ? "text-red-600 dark:text-red-400"
-                      : "text-gray-600 dark:text-gray-400"
-                  }`}
-                >
-                  <span>Needed by:</span>
-                  <span>{formatDate(donation.fields["Date needed by"])}</span>
-                  {isPastDue(donation.fields["Date needed by"]) && (
-                    <span className="text-xs ml-1">⚠️ Past due</span>
-                  )}
-                </div>
-              )}
-            </div>
-
-            {/* Bottom row: How to Help */}
-            <div className="flex items-center gap-2 flex-wrap text-sm">
-              To donate:
-              {donation.fields["How to donate"] && (
-                <div className="flex items-center gap-2">
-                  <span className="text-gray-900 dark:text-white">
-                    {donation.fields["How to donate"]}
-                  </span>
-                </div>
-              )}
-              {getPhoneNumber(donation) && (
-                <div className="flex items-center gap-2">
-                  <span className="text-gray-600 dark:text-gray-400">call</span>
-                  <a
-                    href={`tel:${getPhoneNumber(donation)}`}
-                    className="font-medium text-blue-600 dark:text-blue-400 hover:underline"
-                  >
-                    {getPhoneNumber(donation)}
-                  </a>
-                </div>
-              )}
-              {donation.fields["Buy URL"] && (
-                <a
-                  href={donation.fields["Buy URL"]}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="inline-flex items-center gap-1 px-3 py-1 bg-blue-600 hover:bg-blue-700 text-white font-medium rounded transition-colors"
-                >
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    viewBox="0 0 20 20"
-                    fill="currentColor"
-                    className="w-4 h-4"
-                  >
-                    <path d="M1 1.75A.75.75 0 011.75 1h1.628a1.75 1.75 0 011.734 1.51L5.18 3a65.25 65.25 0 0113.36 1.412.75.75 0 01.58.875 48.645 48.645 0 01-1.618 6.2.75.75 0 01-.712.513H6a2.503 2.503 0 00-2.292 1.5H17.25a.75.75 0 010 1.5H2.76a.75.75 0 01-.748-.807 4.002 4.002 0 012.716-3.486L3.626 2.716a.25.25 0 00-.248-.216H1.75A.75.75 0 011 1.75zM6 17.5a1.5 1.5 0 11-3 0 1.5 1.5 0 013 0zM15.5 19a1.5 1.5 0 100-3 1.5 1.5 0 000 3z" />
-                  </svg>
-                  Buy Online
-                </a>
-              )}
-            </div>
+    <div className="space-y-4">
+      {/* Header with count and sort */}
+      <div className="flex items-center justify-between gap-4 flex-wrap mb-6">
+        <p className="text-sm text-gray-600 dark:text-gray-400">
+          Showing {sortedDonations.length} items needed by local providers
+        </p>
+        <div className="flex items-center gap-2">
+          <span className="text-sm text-gray-500 dark:text-gray-400">
+            Sort by:
+          </span>
+          <div className="flex gap-1">
+            {(
+              [
+                { key: "priority", label: "Priority" },
+                { key: "provider", label: "Provider" },
+                { key: "date", label: "Date added" },
+              ] as const
+            ).map((option) => (
+              <button
+                key={option.key}
+                onClick={() => setSortBy(option.key)}
+                className={`text-sm px-3 py-1 rounded-full transition-colors ${
+                  sortBy === option.key
+                    ? "bg-accent-purple-600 text-white"
+                    : "bg-gray-100 dark:bg-gray-700 text-gray-700 dark:text-gray-300 hover:bg-gray-200 dark:hover:bg-gray-600"
+                }`}
+              >
+                {option.label}
+              </button>
+            ))}
           </div>
         </div>
-      ))}
+      </div>
+
+      {/* Items Needed List */}
+      {sortedDonations.map((donation) => {
+        const remaining =
+          donation.fields["Quantity Remaining"] ??
+          (donation.fields["Quantity Needed"] || 0) -
+            (donation.fields["Quantity Delivered"] || 0);
+
+        return (
+          <div
+            key={donation.id}
+            className="bg-white dark:bg-gray-800 rounded-lg shadow-md border border-gray-200 dark:border-gray-700 overflow-hidden"
+          >
+            <div className="p-4">
+              {/* Header: Item Name + Priority + Quantity */}
+              <div className="flex items-start justify-between gap-3">
+                <div className="flex-1 min-w-0">
+                  <div className="flex items-center gap-2 flex-wrap">
+                    <h3 className="font-semibold text-lg text-gray-900 dark:text-white">
+                      {donation.fields["Item Name"]}
+                    </h3>
+                    {donation.fields.Priority && (
+                      <span
+                        className={`text-xs px-2 py-0.5 rounded font-medium ${getPriorityColor(donation.fields.Priority)}`}
+                      >
+                        {donation.fields.Priority}
+                      </span>
+                    )}
+                  </div>
+                  {/* Quantity + Notes inline */}
+                  <div className="mt-1 text-sm text-gray-600 dark:text-gray-400">
+                    {donation.fields["Quantity Needed"] && (
+                      <span>
+                        <span className="font-medium text-gray-900 dark:text-white">
+                          {remaining > 0
+                            ? remaining
+                            : donation.fields["Quantity Needed"]}
+                        </span>{" "}
+                        {donation.fields["Unit Type"]?.toLowerCase() || "items"}{" "}
+                        needed
+                        {donation.fields.Notes && (
+                          <span className="mx-1">·</span>
+                        )}
+                      </span>
+                    )}
+                    {donation.fields.Notes && (
+                      <span>{donation.fields.Notes}</span>
+                    )}
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            {/* Bottom Bar: Provider + Contact Info + Tags */}
+            <div className="bg-slate-100 dark:bg-gray-900 px-4 py-3 border-t border-gray-200 dark:border-gray-700">
+              <div className="flex items-center justify-between gap-3 flex-wrap">
+                {/* Provider + Contact */}
+                <div className="flex items-center gap-3 text-sm">
+                  {donation.fields["Requesting Organization"] && (
+                    <span className="font-semibold text-accent-purple-600 dark:text-accent-purple-400">
+                      {getProviderName(
+                        donation.fields["Requesting Organization"]
+                      )}
+                    </span>
+                  )}
+                  {getDropOffLocation(donation) && (
+                    <span className="text-gray-600 dark:text-gray-400">
+                      📍 {getDropOffLocation(donation)}
+                    </span>
+                  )}
+                  {getPhoneNumber(donation) && (
+                    <a
+                      href={`tel:${getPhoneNumber(donation)}`}
+                      className="text-blue-600 dark:text-blue-400 hover:underline"
+                    >
+                      📞 {getPhoneNumber(donation)}
+                    </a>
+                  )}
+                </div>
+                {/* Tags */}
+                <div className="flex items-center gap-1.5 flex-wrap">
+                  {donation.fields.Category && (
+                    <span className="text-xs px-2 py-0.5 bg-gray-200 dark:bg-gray-700 text-gray-600 dark:text-gray-300 rounded">
+                      {donation.fields.Category}
+                    </span>
+                  )}
+                  {donation.fields.Season &&
+                    donation.fields.Season !== "Year-round" && (
+                      <span className="text-xs px-2 py-0.5 bg-teal-100 dark:bg-teal-900 text-teal-700 dark:text-teal-200 rounded">
+                        {donation.fields.Season}
+                      </span>
+                    )}
+                  {donation.fields.Recurrence &&
+                    donation.fields.Recurrence !== "One-time" && (
+                      <span className="text-xs px-2 py-0.5 bg-purple-100 dark:bg-purple-900 text-purple-700 dark:text-purple-200 rounded">
+                        {donation.fields.Recurrence}
+                      </span>
+                    )}
+                </div>
+              </div>
+            </div>
+          </div>
+        );
+      })}
     </div>
   );
 }
