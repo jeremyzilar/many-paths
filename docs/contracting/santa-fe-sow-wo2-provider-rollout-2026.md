@@ -101,6 +101,18 @@ This session should cover:
 - Jeremy incorporates provider feedback into training materials and onboarding approach for the next provider
 - Jeremy populates or supports the population of the initial by-name list with each provider's existing client contacts
 
+### Activity log and daily digest
+
+As part of the Interface build (begun in WO1 and put into active use here), Jeremy configures an activity log view and a daily digest notification for providers.
+
+**Activity log in the Interface:** A view within the Airtable Interface that shows recent entries to the by-name list -- what was added or updated, by whom, and when. Providers see the activity that is relevant to their own clients and to shared cases. This is not a full audit log for administrators; it is a practical, readable summary designed for outreach workers who need to know what changed since they last logged in.
+
+**Daily digest to providers:** An automated daily notification (via Airtable automation or a lightweight email) sent to each active provider summarizing the day's activity on the list. The purpose is validation and accountability -- providers can confirm that what they entered was recorded correctly, see what other providers have added on shared clients, and stay connected to the list even on days they do not log in directly.
+
+The digest is not meant to be comprehensive. It should surface only what is actionable: new records added, updates to existing records the provider is connected to, and any flagged items that need a response.
+
+Jeremy builds and tests this feature during WO2 alongside the first provider onboardings. Provider feedback from onboarding sessions and Shannon's check-ins is used to refine what the digest shows and how often it goes out.
+
 ### By-name list population
 
 - Work with providers and outreach teams to document who is currently known to be experiencing street homelessness in Santa Fe
@@ -128,6 +140,7 @@ Feedback from Shannon's post-onboarding check-ins and from provider onboarding s
 - Shannon's pre-onboarding synthesis notes (per provider, internal working documents)
 - Portal access configured and confirmed for all initial providers (2-3 organizations)
 - Onboarding sessions completed for all initial providers
+- Activity log view live in the Interface; daily digest configured and sending to all active providers
 - Shannon's post-onboarding check-in notes (per provider, internal working documents)
 - By-name list populated with real data from initial providers
 - Revised provider-facing documentation (incorporating feedback from onboarding)
