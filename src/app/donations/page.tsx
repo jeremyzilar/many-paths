@@ -7,7 +7,7 @@ import { DonationsList } from "@/components/DonationsList";
 
 export default async function DonationsPage() {
   // Read the markdown file from the docs folder
-  const filePath = path.join(process.cwd(), "docs", "donations.md");
+  const filePath = path.join(process.cwd(), "docs", "pages", "donations.md");
   const fileContents = await fs.readFile(filePath, "utf8");
 
   // Parse front matter

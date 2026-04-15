@@ -9,6 +9,7 @@ export default async function OrganizationalStructurePage() {
   const filePath = path.join(
     process.cwd(),
     "docs",
+    "pages",
     "organizational-structure.md"
   );
   const fileContents = await fs.readFile(filePath, "utf8");

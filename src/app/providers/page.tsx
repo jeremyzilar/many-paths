@@ -7,7 +7,7 @@ import { ProvidersList } from "@/components/ProvidersList";
 
 export default async function ProvidersPage() {
   // Read the markdown file from the docs folder
-  const filePath = path.join(process.cwd(), "docs", "providers.md");
+  const filePath = path.join(process.cwd(), "docs", "pages", "providers.md");
   const fileContents = await fs.readFile(filePath, "utf8");
 
   // Parse front matter

@@ -6,7 +6,7 @@ import { PageLayout } from "@/components/PageLayout";
 
 export default async function PilotPage() {
   // Read the markdown file from the docs folder
-  const filePath = path.join(process.cwd(), "docs", "pilot.md");
+  const filePath = path.join(process.cwd(), "docs", "pages", "pilot.md");
   const fileContents = await fs.readFile(filePath, "utf8");
 
   // Parse front matter

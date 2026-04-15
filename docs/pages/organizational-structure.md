@@ -357,19 +357,19 @@ Complete implementation materials are available in `/docs/fiscal-sponsorship/`:
 
 **Getting Started:**
 
-- **[decision-summary.md](./fiscal-sponsorship/decision-summary.md)** - 2-page overview of the decision and rationale
-- **[README.md](./fiscal-sponsorship/README.md)** - How to use all the implementation materials
+- **[decision-summary.md](../fiscal-sponsorship/decision-summary.md)** - 2-page overview of the decision and rationale
+- **[README.md](../fiscal-sponsorship/README.md)** - How to use all the implementation materials
 
 **Core Documents:**
 
-- **[project-brief.md](./fiscal-sponsorship/project-brief.md)** - 6-page brief for potential fiscal sponsors
-- **[implementation-checklist.md](./fiscal-sponsorship/implementation-checklist.md)** - Step-by-step tracking checklist
+- **[project-brief.md](../fiscal-sponsorship/project-brief.md)** - 6-page brief for potential fiscal sponsors
+- **[implementation-checklist.md](../fiscal-sponsorship/implementation-checklist.md)** - Step-by-step tracking checklist
 
 **Templates for Agreements:**
 
-- **[data-governance.md](./fiscal-sponsorship/data-governance.md)** - Data governance framework for providers
-- **[city-contract-template.md](./fiscal-sponsorship/city-contract-template.md)** - Contract proposal template for City
-- **[provider-data-sharing-agreement-template.md](./fiscal-sponsorship/provider-data-sharing-agreement-template.md)** - Provider agreement template
+- **[data-governance.md](../fiscal-sponsorship/data-governance.md)** - Data governance framework for providers
+- **[city-contract-template.md](../fiscal-sponsorship/city-contract-template.md)** - Contract proposal template for City
+- **[provider-data-sharing-agreement-template.md](../fiscal-sponsorship/provider-data-sharing-agreement-template.md)** - Provider agreement template
 
 **Implementation Plan:**
 

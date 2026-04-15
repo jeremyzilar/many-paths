@@ -1,150 +1,105 @@
-# Work Order 2: Provider Engagement & Rollout
+# Provider Engagement and Onboarding: Statement of Work
 
-**Santa Fe Street Homelessness Coordination**
-
-**Vendor:** 59 Projects LLC  
-**Delivery Partners:** Lakeraven (Rebecca Refoy); Shannon [last name] (provider onboarding support)  
-**Prepared for:** City of Santa Fe  
-**Max Contract Amount:** $19,500  
-**Contract Period:** [Start Date] to [End Date] (begins after or concurrent with WO1)  
+**Contractor:** 59 Projects LLC  
+**Prepared for:** City of Santa Fe, Office of Community Health and Safety  
+**Not to Exceed:** $19,500  
+**Contract Period:** [Start Date] to [End Date]  
 **Version:** Draft, [Date]
 
-*This work order is part of the Santa Fe Street Homelessness Coordination program. See [santa-fe-sow-overview-2026.md](santa-fe-sow-overview-2026.md) for background, vendor and delivery structure, shared assumptions, and payment flow.*
+---
+
+## Why this work is essential
+
+A configured data system with no providers using it is not coordination. It is an empty database.
+
+The hardest part of implementing a shared coordination platform is not the technology. Technology is the easy part. The hard part is getting providers to change how they do their jobs: to log into a new system, to enter data on clients they are already tracking in their own spreadsheets and case management tools, and to trust that doing so will actually help their clients and not just create more administrative burden.
+
+That change does not happen by sending providers a login and a user guide. It requires direct, hands-on engagement with each organization: understanding their existing workflows, addressing their concerns about data sharing and client privacy, walking their staff through the system in a live session, and following up after they have been using it for a few weeks to address what is not working.
+
+This contract delivers that engagement for the first 2-3 provider organizations to join the coordination system. These initial providers are not chosen arbitrarily. They represent different points in the service continuum: street outreach, shelter, and case management. Getting all three working in the same system at the same time is what makes real coordination possible.
 
 ---
 
-## Goal
+## Why 2-3 providers first
 
-2-3 initial provider organizations are actively using the Airtable system. The by-name list is populated with real data. Providers have the support, documentation, and direct relationships they need to use the system independently after this work order.
+This contract deliberately does not attempt to onboard every provider at once. This is the right approach, not a limitation.
 
----
+Getting 2-3 providers genuinely using the system (entering real data, updating records, building the coordination habit into their daily work) is a harder and more valuable goal than signing up 10 providers who log in once and never return. A small, working coalition of organizations that trust the system and each other becomes the proof of concept that brings other providers in. It also surfaces what is not working before those problems are embedded across a large group.
 
-## Scope and constraints
+The initial 2-3 providers will be identified by the City and 59 Projects LLC together before this contract begins, based on existing relationships, organizational readiness, and role in the service continuum. Examples: a street outreach team, an emergency shelter, and a case management organization.
 
-### Starting with 2-3 providers, intentionally
-
-This work order does not attempt to onboard every provider at once. We are starting with 2-3 organizations. This is the right approach, not a limitation.
-
-Getting 2-3 providers genuinely using the system (entering real data, updating records, building the coordination habit) is a harder and more valuable goal than signing up 10 providers who never log in. A small, working coalition of organizations that trust the system becomes the proof of concept that brings others in. It also gives us the feedback we need to sharpen onboarding materials and training before scaling.
-
-The City and 59 Projects LLC will identify the initial 2-3 providers together before this work order starts, based on existing relationships, readiness, and role in the service network (e.g., a street outreach team, a shelter, and a case management organization).
-
-This is the model for future expansion: make the first group successful, let that success bring the next group in.
+This is the model for future expansion: make the first group successful, document what worked, and use that to bring the next group in.
 
 ---
 
-## Workstream 3: Provider engagement and rollout
+## What will be delivered
 
-### Three roles, three distinct contributions
+### Pre-onboarding provider research
 
-**Shannon: structured listening**
+Before each provider's onboarding session, 59 Projects LLC will conduct a structured conversation with the provider's key staff contact (approximately 30-45 minutes). This conversation is not a discovery sprint about what to build. The system is already built. The purpose is practical: what does this specific provider need to adopt this system well?
 
-Shannon's role is provider onboarding support. Before each provider's onboarding session, Shannon conducts a short 1:1 conversation with the provider's key contact (30-45 minutes). The question she is answering is practical: what does this provider need to adopt this well?
+The conversation covers:
+- How the provider currently tracks the people they serve (what systems or processes they use now)
+- Their staff's concerns about sharing client data with other organizations
+- What would make the tool genuinely useful for the people who will have to log in every week, not just for the organization's leadership
 
-That conversation covers:
-- Their current workflow for tracking clients (what they use now, what they are comfortable with)
-- Their concerns about data sharing and client confidentiality
-- What would make the tool actually useful for their staff, specifically for the people who will have to log in every week
+Brief notes from each conversation feed directly into how that provider's onboarding session is designed and what is emphasized. Providers are not all the same; a shelter intake coordinator has different needs than a street outreach worker.
 
-Shannon produces brief synthesis notes per provider. These are not a formal report but practical notes that feed directly into how Jeremy runs that provider's onboarding session and what Rebecca emphasizes in relationship conversations. After each provider has been in the system for a few weeks, Shannon conducts a short follow-up check-in: is it working, what is getting in the way, what would they tell the next provider who comes on.
+### Onboarding sessions (per provider)
 
-This is not a discovery sprint about what to build. The system is built. Shannon's work is targeted listening applied to a specific practical problem: how do we make these 2-3 providers successful with what we have?
+Each provider organization receives a dedicated onboarding session. The session covers:
 
-**Rebecca (Lakeraven): relationships and context**
+- Introduction to the coordination system: what it is, what it is not, and what the City's commitment to the program looks like
+- A live walkthrough of the provider-facing interface: how to log in, find individuals in the system, enter and update records, and navigate between views
+- Hands-on data entry practice with the provider's own staff, using real or practice records, with the contractor present to answer questions and troubleshoot
+- Direct expectation-setting: what the system asks of the provider's staff in terms of time and data entry, and what the City and other providers will do in return
+- Confirmation that each staff member can log in and navigate independently before the session ends
 
-Rebecca focuses on the relationships that make providers willing to try something new. For each initial provider, Rebecca attends an introductory meeting to help set context: who 59 Projects LLC is, how Lakeraven has worked with government digital services, what the City's commitment to this program looks like, and why this particular provider was identified as someone to help shape how the system rolls out.
+Each provider receives a printed or digital quick-start guide (produced under the data platform setup contract) to use as a reference after the session.
 
-Rebecca also supports relationship building with City staff (Lia Salaverry and others) and with any additional contacts the City identifies in Albuquerque or statewide who may be relevant to future work.
+### Portal access activation
 
-**Jeremy (59 Projects LLC): technical walkthroughs and expectation-setting**
+Each provider organization's portal access will be activated in the Airtable system before their onboarding session. Staff accounts will be configured with the correct interface access and permission level. 59 Projects LLC will confirm that all accounts are functional before the session begins.
 
-Jeremy runs the actual onboarding sessions with each provider: a 1:1 technical walkthrough of the Interface the provider will use, live data entry practice with the provider's staff, and direct expectation-setting about what the system asks of them. Jeremy sets up each provider's portal access in Airtable, confirms they can log in and navigate independently, and is the point of contact for technical issues after onboarding.
+### Post-onboarding follow-up
 
----
+Approximately 2-4 weeks after each provider's onboarding session, 59 Projects LLC will conduct a brief follow-up check-in with the provider's key contact. The purpose is to understand what is working and what is getting in the way of regular use. Findings from each check-in are documented and used to improve the onboarding approach for the next provider.
 
-## Activities
-
-### Joint kickoff session (all providers together)
-
-Before individual onboarding sessions begin, the team convenes an in-person working session with all three providers present -- along with Jeremy, Shannon, a City representative (likely Lia), and Rebecca where possible.
-
-This is not a training. It is a working session. The format should be collaborative: sticky notes, a shared wall, and space for providers to surface questions and concerns together. The goal is to get everyone oriented to the same system at the same time, so that the individual onboarding sessions that follow are sharpening and practicing rather than introducing from scratch.
-
-An important tone to establish in this session: everyone in the room is learning this system together. The providers are not being handed something finished by a team of experts -- they are helping shape how it actually gets used. Their reactions and questions in this session directly feed what gets adjusted before individual onboarding begins.
-
-This session should cover:
-- What the system is for and what it is not for
-- Who is in the room and what each person's role is going forward
-- A first look at the Interface -- enough to make the individual sessions feel familiar, not overwhelming
-- Open space for questions, concerns, and reactions from provider staff
-
-### Before onboarding (per provider)
-
-- Jeremy and Shannon jointly conduct a pre-onboarding conversation with each provider's key contact; for the first one or two, Jeremy leads and introduces Shannon as the ongoing point of contact -- Shannon takes over as primary contact once the relationship is warm
-- A City representative (Lia or designee) joins where possible, both to reinforce the City's commitment and to stay close to what providers are saying
-- Shannon delivers brief synthesis notes to Jeremy and Rebecca before each onboarding session
-- Jeremy prepares the provider's portal access in Airtable (user account, Interface access, test data if useful)
-- Rebecca and Jeremy agree on the meeting agenda and who covers what
-
-### Onboarding session (per provider)
-
-- Rebecca leads introductions and context-setting; establishes the relationship and the City's commitment
-- Jeremy walks the provider through the Interface: how to log in, find people, update records, what the data entry standards ask of them
-- Jeremy and provider staff practice live data entry together; work through any questions or concerns
-- Jeremy confirms the provider can log in and navigate independently before the session ends
-- Brief written quick-start guide (from WO1 documentation) left with each provider
-
-### After onboarding
-
-- Jeremy is available for follow-up questions and technical support as providers begin regular use
-- Shannon conducts a follow-up check-in with each provider [2-4 weeks after onboarding]; delivers brief notes on what is working and what is getting in the way
-- Jeremy incorporates provider feedback into training materials and onboarding approach for the next provider
-- Jeremy populates or supports the population of the initial by-name list with each provider's existing client contacts
-
-### Activity log and daily digest
-
-As part of the Interface build (begun in WO1 and put into active use here), Jeremy configures an activity log view and a daily digest notification for providers.
-
-**Activity log in the Interface:** A view within the Airtable Interface that shows recent entries to the by-name list -- what was added or updated, by whom, and when. Providers see the activity that is relevant to their own clients and to shared cases. This is not a full audit log for administrators; it is a practical, readable summary designed for outreach workers who need to know what changed since they last logged in.
-
-**Daily digest to providers:** An automated daily notification (via Airtable automation or a lightweight email) sent to each active provider summarizing the day's activity on the list. The purpose is validation and accountability -- providers can confirm that what they entered was recorded correctly, see what other providers have added on shared clients, and stay connected to the list even on days they do not log in directly.
-
-The digest is not meant to be comprehensive. It should surface only what is actionable: new records added, updates to existing records the provider is connected to, and any flagged items that need a response.
-
-Jeremy builds and tests this feature during WO2 alongside the first provider onboardings. Provider feedback from onboarding sessions and Shannon's check-ins is used to refine what the digest shows and how often it goes out.
+59 Projects LLC will be available for follow-up technical questions and troubleshooting as providers begin regular use during the contract period.
 
 ### By-name list population
 
-- Work with providers and outreach teams to document who is currently known to be experiencing street homelessness in Santa Fe
-- Establish a clear, shared record for each individual: name or alias, provider contacts, service history, current status
-- Confirm data entry standards (from WO1) are working in practice; revise if needed based on provider feedback
-- Target: by-name list contains records for at least [X] individuals before this work order closes
+Working with each provider, 59 Projects LLC will support the population of the by-name list with real data on individuals currently experiencing street homelessness in Santa Fe. This is the core function the system is designed to serve, and the list needs real data to be useful.
 
----
+Population activities include:
+- Working with provider staff to identify individuals currently known to them and not yet in the system
+- Supporting data entry for existing clients in the provider's caseload
+- Confirming that data entry standards (from the data governance contract) are working in practice and are realistic for the provider's staff
+- Revising standards if needed based on what providers encounter in real use
 
-## Provider-facing documentation
+Target: the by-name list contains records for at least [X] individuals currently experiencing street homelessness in Santa Fe before this contract closes.
 
-The following documentation (drafted in WO1) is put into use during this work order:
+### Onboarding summary and documentation
 
-- **Provider Interface guide**: how to log in, use the Interface to view and update relevant records, navigate between views, and understand what information is shared with whom
-- **Data entry standards**: what to enter, when, how often, and how to handle common edge cases, written for non-technical provider staff
-- **Quick-start guide**: brief one-page reference for portal users to use independently after onboarding
+At the close of this contract, 59 Projects LLC will deliver a brief summary document covering:
+- What was learned from onboarding the first 2-3 providers
+- What worked and what needed adjustment
+- Recommended changes to the onboarding approach, training materials, or system configuration before the next group of providers is brought on
+- A proposed list of next organizations to approach
 
-Feedback from Shannon's post-onboarding check-ins and from provider onboarding sessions is used to revise and improve these materials for future providers.
+This document is designed to be directly usable in planning the next phase of provider expansion.
 
 ---
 
 ## Deliverables
 
-- Joint in-person kickoff session completed (all providers together)
-- Shannon's pre-onboarding synthesis notes (per provider, internal working documents)
+- Pre-onboarding research notes per provider (internal working documents)
 - Portal access configured and confirmed for all initial providers (2-3 organizations)
 - Onboarding sessions completed for all initial providers
-- Activity log view live in the Interface; daily digest configured and sending to all active providers
-- Shannon's post-onboarding check-in notes (per provider, internal working documents)
-- By-name list populated with real data from initial providers
+- Post-onboarding check-in notes per provider
+- By-name list populated with real data from initial provider organizations
 - Revised provider-facing documentation (incorporating feedback from onboarding)
-- Short summary of what we learned from onboarding the first 2-3 providers, with recommended adjustments for the next group
+- Onboarding summary with recommendations for next provider group
 
 ---
 
@@ -152,49 +107,49 @@ Feedback from Shannon's post-onboarding check-ins and from provider onboarding s
 
 | Milestone | Target |
 |-----------|--------|
-| Initial 2-3 providers identified; introductions made by City | Before WO2 start or Week 1 |
-| Joint in-person kickoff session (all providers together) | Week 2 |
-| Pre-onboarding conversations completed (all providers; Jeremy + Shannon) | Week 2-3 |
-| Shannon synthesis notes delivered to Jeremy and Rebecca | Week 3 |
-| Provider 1 portal access configured; onboarding session completed | Week 3-4 |
-| Provider 2 portal access configured; onboarding session completed | Week 4-5 |
+| Initial 2-3 providers identified; City makes introductions | Before contract start or Week 1 |
+| Pre-onboarding conversations completed with all providers | Week 2 |
+| Provider 1 portal access configured; onboarding session completed | Week 3 |
+| Provider 2 portal access configured; onboarding session completed | Week 4 |
 | Provider 3 portal access configured; onboarding session completed | Week 5-6 |
-| Initial by-name list populated with real data | Day 45-60 |
-| Shannon follow-up check-ins completed (all providers) | Day 45-60 |
+| By-name list populated with real data | Day 45-60 |
+| Post-onboarding check-ins completed with all providers | Day 45-60 |
 | Onboarding summary and revised documentation delivered | Day 60 |
 
-Specific dates to be confirmed after contract execution. WO2 can begin after WO1's setup and portal access configuration is complete (roughly weeks 4-5 of WO1).
+This contract should begin after the data platform setup and data governance contracts are substantially complete. The system must be configured and the governance framework must be finalized before providers are asked to enter real client data.
 
 ---
 
 ## Budget
 
-| Item | Hours (est.) | Amount |
-|------|-------------|--------|
-| Shannon: pre-onboarding conversations (2-3 providers x 30-45 min + prep) | [X] hrs | $[X,XXX] |
-| Shannon: synthesis notes per provider | [X] hrs | $[X,XXX] |
-| Shannon: post-onboarding check-ins (2-3 providers x 30 min + notes) | [X] hrs | $[X,XXX] |
-| Rebecca: introductory relationship meetings (per provider + City contacts) | [X] hrs | $[X,XXX] |
-| Jeremy: portal access configuration (per provider) | [X] hrs | $[X,XXX] |
-| Jeremy: onboarding sessions (2-3 providers x ~2 hrs + prep) | [X] hrs | $[X,XXX] |
-| Jeremy: by-name list population support | [X] hrs | $[X,XXX] |
-| Jeremy: follow-up support and documentation revision | [X] hrs | $[X,XXX] |
-| Jeremy: project coordination and City liaison | [X] hrs | $[X,XXX] |
+| Scope of work | Hours (est.) | Amount |
+|---------------|-------------|--------|
+| Pre-onboarding research conversations (per provider) | [X] hrs | $[X,XXX] |
+| Research synthesis notes (per provider) | [X] hrs | $[X,XXX] |
+| Portal access configuration (per provider) | [X] hrs | $[X,XXX] |
+| Onboarding sessions (2-3 providers, including preparation) | [X] hrs | $[X,XXX] |
+| By-name list population support | [X] hrs | $[X,XXX] |
+| Post-onboarding check-ins (per provider) | [X] hrs | $[X,XXX] |
+| Documentation revision and onboarding summary | [X] hrs | $[X,XXX] |
+| Provider relationship coordination and City liaison | [X] hrs | $[X,XXX] |
 | **Total** | **[X] hrs** | **$[XX,XXX]** |
 
-*Hourly rate: $200/hr (Jeremy Zilar, 59 Projects LLC; Shannon; Rebecca Refoy/Lakeraven). Shannon and Rebecca are paid through 59 Projects LLC under separate agreements.*
+Hourly rate: $200/hr. All work performed by or under the direction of 59 Projects LLC.
 
-**Payment terms:** [e.g., 50% on execution; 50% on final deliverable acceptance]. The City pays 59 Projects LLC. 59 Projects LLC pays Lakeraven and Shannon under separate agreements.
+Payment terms: [e.g., 50% on execution; 50% on delivery of onboarding summary and confirmation that all providers have active portal access].
 
 ---
 
-## Roles
+## Assumptions
 
-| Party | Role in this work order |
-|-------|------------------------|
-| **City of Santa Fe** | Contracting authority; provider introductions; scheduling support |
-| **Lia Salaverry** (Director, Community Health and Safety) | City project lead; provider relationship context; approvals |
-| **59 Projects LLC** (Jeremy Zilar) | Prime vendor; onboarding lead; portal access setup; by-name list population; City liaison |
-| **Shannon** | Provider onboarding support: pre-onboarding conversations, synthesis notes, post-onboarding check-ins |
-| **Rebecca Refoy (Lakeraven)** | Relationship and context-setting with providers and City contacts; introductory meetings |
-| **Initial providers (2-3 organizations)** | Portal users; data entry; onboarding participants; feedback on system and process |
+- The City will identify the initial 2-3 provider organizations and make introductions before or at the start of this contract.
+- The data platform setup contract is substantially complete (Airtable base configured, Interfaces built, portal access structure in place) before provider onboarding begins.
+- The data governance contract is complete (governance framework finalized, data entry standards approved, consent documentation ready) before providers are asked to enter real client data.
+- Provider organizations will make at least one key staff contact available for the pre-onboarding conversation and for the onboarding session.
+- The City will support scheduling and, where needed, will use its existing relationships with providers to encourage participation.
+
+---
+
+## About 59 Projects LLC
+
+59 Projects LLC is the prime contractor. The City contracts with and pays 59 Projects LLC directly. Any subcontractors engaged by 59 Projects LLC are paid under separate agreements; the City has no contractual relationship with subcontractors.

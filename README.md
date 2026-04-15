@@ -33,15 +33,26 @@ In Santa Fe, people experiencing homelessness move through various systems, but 
 
 ### Platform Vision & Strategy
 
-- **[Product Vision](./docs/product-vision.md)** - Complete platform overview, feature catalog, and roadmap
-- **[Presentation Outline](./docs/presentation-outline.md)** - Community talk outline using pyramid principle
+- **[Product Vision](./docs/strategy/product-vision.md)** - Complete platform overview, feature catalog, and roadmap
+- **[Presentation Outline](./docs/strategy/presentation-outline.md)** - Community talk outline using pyramid principle
 
 ### Project Documentation
 
-- **[Mission](./docs/mission.md)** - Why Many Paths exists
-- **[Operations Manual](./docs/manual.md)** - How to use the system
-- **[Organizational Structure](./docs/organizational-structure.md)** - Governance and operational model
-- **[Who We Are](./docs/who-we-are.md)** - Team and stakeholders
+- **[Mission](./docs/pages/mission.md)** - Why Many Paths exists
+- **[Operations Manual](./docs/pages/manual.md)** - How to use the system
+- **[Organizational Structure](./docs/pages/organizational-structure.md)** - Governance and operational model
+- **[Who We Are](./docs/pages/who-we-are.md)** - Team and stakeholders
+
+### Research & Case Studies
+
+- **[Competitive Landscape](./docs/reference/competitive-landscape.md)** - Software and platforms in homelessness services, with focus on outreach teams
+- **[Community Solutions Case Studies](./docs/reference/community-solutions-case-studies.md)** - Curated list of Built for Zero / Community Solutions case studies by location
+- **[Language Guide](./docs/reference/language-guide.md)** - Terminology guide for homelessness and housing
+
+### Partnerships and contracting
+
+- **[Lakeraven Partnership](./docs/contracting/lakeraven-partnership.md)** - Delivery partner (strategy, design, engineering); contacts and context
+- **[Santa Fe Statement of Work (2026)](./docs/contracting/santa-fe-statement-of-work-2026.md)** - Draft SOW for Santa Fe (59 Projects LLC + Lakeraven)
 
 ### Implementation Resources
 
@@ -121,10 +132,15 @@ yarn lint         # Run ESLint
 
 ```
 /Users/jeremy/Sites/santa-fe/street-view/
-├── docs/                    # Markdown documentation
-│   ├── mission.md          # Mission statement
-│   ├── manual.md           # Operations manual
-│   └── README.md           # Documentation guide
+├── docs/                        # Markdown documentation
+│   ├── README.md                # Documentation guide
+│   ├── pages/                   # App-rendered pages (9 files)
+│   ├── reference/               # Language, landscape, case studies, resources
+│   ├── strategy/                # Product vision, presentation outline
+│   ├── contracting/             # Lakeraven partnership, Santa Fe SOW
+│   ├── specs/                   # Airtable account specs
+│   ├── fiscal-sponsorship/      # Fiscal sponsorship implementation
+│   └── communications/          # Outreach templates
 ├── public/
 │   └── pdfs/               # PDF storage
 ├── src/
